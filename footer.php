@@ -2,7 +2,7 @@
     <div id="footer-content">
       <div id="footer-copyright">
         <img alt="turpial logo" src="<?php bloginfo('template_directory'); ?>/images/footer-logo.png" width="70" />
-        <p>© Turpial es software libre bajo licencia GPLv3</p>
+        <p>© Turpial is software libre under GPLv3 license</p>
       </div>
       <div id="footer-icons">
         <a href="http://twitter.com/elshaka">by elshaka</a>

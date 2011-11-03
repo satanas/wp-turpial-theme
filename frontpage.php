@@ -13,7 +13,7 @@
         <div id="description" class="landscape-item">
           <h1>Tan criollo como la arepa</h1>
           <p>Turpial is a microblogging client written in Python. It is lightweight, functional and does not harm the ozone layer</p>
-          <a id="download-button" href="downloads/">versi&oacute;n 1.5</a>
+          <a id="download-button" href="downloads/">version 1.5</a>
         </div>
         <div class="clearbox"></div>
       </div> 

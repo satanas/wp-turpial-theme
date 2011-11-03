@@ -11,10 +11,10 @@
               <div class="post-head">
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <span class="metadata">
-                  <?php _e('Publicado el '); the_time('d/m/Y'); _e(' por '); _e(' '); the_author_posts_link(); edit_post_link('Editar', ' &#124; ', ''); ?></span>
+                  <?php _e('Posted '); the_time('m/d/Y'); _e(' by '); _e(' '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
               </div>
               <?php the_content(); ?>
-              <span class="comment-count"><img alt="coment-icon" src="<?php bloginfo('template_directory'); ?>/images/comment-icon.png" width="16" /><?php comments_popup_link('Sin comentarios', '1 comentario', '% comentarios'); ?></span>
+              <span class="comment-count"><img alt="coment-icon" src="<?php bloginfo('template_directory'); ?>/images/comment-icon.png" width="16" /><?php comments_popup_link('No comments', '1 comment', '% comments'); ?></span>
             </div>
               <?php endwhile; ?>
             <div id="navigation">
@@ -22,7 +22,7 @@
             </div>
             <?php else : ?>
           <div class="post">
-            <h2><?php _e('No se encontraron posts'); ?></h2>
+            <h2><?php _e('We couldn\'t find posts'); ?></h2>
           </div>
           <?php endif ?>            
           </div>

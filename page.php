@@ -11,10 +11,10 @@
         <?php endwhile; ?>
       <?php else : ?>
         <div id="page-head">
-          <h2><?php _e('No se encontró la página'); ?></h2>
+          <h2><?php _e('Page not found'); ?></h2>
         </div>
         <div id="page">
-          <p>No pudimos conseguir la p&aacute;gina que buscas.</p>                  
+          <p>We couldn't find the page you are looking for</p>
         </div>
     <?php endif; ?>
       </div>

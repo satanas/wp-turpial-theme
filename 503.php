@@ -5,7 +5,7 @@
 
 <head>
 
-<title>Turpial - En mantenimiento 2</title>
+<title>Turpial - Out of service</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" href="http://turpial.org.ve/wp-content/themes/turpial-2.0/maintenance.css" type="text/css" media="screen" />
 </head>
@@ -14,9 +14,9 @@
   <div id="container">
     <img id="logo" src="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/turpial-logo-maintenance.png" alt="Turpial logo" width="165"/>
     <img id="pajarito-morido" src="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/turpial-morido.png" alt="Turpial est&aacute; morido" width="190"/>
-    <h1>En mantenimiento</h1>
-    <p>Estamos limpiando un poco la casa. Volveremos pronto</p>
-      <p id="links"><a href="http://dev.turpial.org.ve/projects/turpial/issues/">Reportar un bug</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/turpialve">Turpial en twitter</a></p>
+    <h1>Out of service</h1>
+    <p>We're cleaning da house. Please come back in a while</p>
+      <p id="links"><a href="http://dev.turpial.org.ve/projects/turpial/issues/">Report bug</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/turpialve">Turpial in twitter</a></p>
   </div>
 </body>
 </html>

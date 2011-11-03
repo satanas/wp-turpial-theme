@@ -41,9 +41,9 @@
     <div id="header">
       <div id="menu">
         <ul>
-          <li><a href="<?php bloginfo('url'); ?>">Inicio</a></li>
+          <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
           <?php wp_list_pages('title_li=&depth=1'); ?>
-          <li><a href="http://dev.turpial.org.ve">Desarrollo</a></li>    
+          <li><a href="http://dev.turpial.org.ve">Development</a></li>    
         </ul>
       </div>
     </div>

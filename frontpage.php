@@ -12,41 +12,41 @@
         </div>
         <div id="description" class="landscape-item">
           <h1>Tan criollo como la arepa</h1>
-          <p>Turpial es un cliente para twitter e identi.ca escrito en python. Es ligero, funcional y no da&ntilde;a la capa de ozono.</p>
+          <p>Turpial is a microblogging client written in Python. It is lightweight, functional and does not harm the ozone layer</p>
           <a id="download-button" href="downloads/">versi&oacute;n 1.5</a>
         </div>
         <div class="clearbox"></div>
       </div> 
       <div id="features">
         <div class="feature">
-          <img alt="Amplia funcionalidad" width="60" src="<?php bloginfo('template_directory'); ?>/images/functionality.png" />
+          <img alt="A lot of functionality" width="60" src="<?php bloginfo('template_directory'); ?>/images/functionality.png" />
           <div class="feature-text">
-            <h2>Amplia funcionalidad</h2>
-            <p>A pesar de ser un cliente ligero tiene soporte para respuestas, retweets, menciones, mensajes directos, favoritos, entre otras.</p>
+            <h2>A lot of functionality</h2>
+            <p>Despite being a thin client it has support for replies, retweets, mentions, direct messages, favorites, among other</p>
           </div>
         </div>
         <div class="feature">
-          <img alt="Subir im&aacute;genes y acortar urls" width="60" src="<?php bloginfo('template_directory'); ?>/images/images.png" />
+          <img alt="Upload images and short urls" width="60" src="<?php bloginfo('template_directory'); ?>/images/images.png" />
           <div class="feature-text">
-            <h2>Subir im&aacute;genes y acortar urls</h2>
-            <p>Posee soporte para subir im&aacute;genes y acortar urls mediante distintos servicios</p>
+            <h2>Upload images and short urls</h2>
+            <p>Support for upload images and short urls with a bunch of services</p>
           </div>
         </div>
         <div class="feature">
-          <img alt="Amplia funcionalidad" width="60" src="<?php bloginfo('template_directory'); ?>/images/columns.png" />
+          <img alt="Wide mode" width="60" src="<?php bloginfo('template_directory'); ?>/images/columns.png" />
           <div class="feature-text">
-            <h2>Modo extendido</h2>
-            <p>Puedes ajustar Turpial para que se muestre usando una interfaz de 3 columnas y así te enterarás de todo con un solo vistazo.</p>
+            <h2>Wide mode</h2>
+            <p>You can adjust Turpial to show 3 columns, that way you will see all your info at a glance</p>
           </div>
         </div>
-        <span class="more"><a href="features/">conoce m&aacute;s...</a></span>
+        <span class="more"><a href="features/">learn more...</a></span>
         <div class="clearbox"></div>
       </div>
       <div id="page">
         <div id="news">
           <div id="news-title">
             <img alt="news" src="<?php bloginfo('template_directory'); ?>/images/news.png" width="70" />
-              <h2>Noticias</h2>
+              <h2>News</h2>
               <div class="clearbox"></div>
             </div>
 
@@ -59,29 +59,29 @@
                 <span class="metadata"><?php the_time('F j, Y'); ?></span>
               </div>
               <?php the_excerpt(); ?>
-              <span class="post-more"><a href="<?php the_permalink(); ?>">(leer m&aacute;s)</a></span>
+              <span class="post-more"><a href="<?php the_permalink(); ?>">(read more)</a></span>
             </div>
               <?php endwhile; ?>
             <?php else : ?>
             <div class="post">
               <div class="post-head">
-                <h2>No se encontraron posts</h2>
+                <h2>We have no news for the moment. Please come back later</h2>
               </div>
             </div>
             <?php endif; ?>
 
-            <span id="more-news"><a href="news/">Ir al blog</a></span>
+            <span id="more-news"><a href="news/">Go to blog</a></span>
           </div>
           <div id="buttons">
             <a href="faqs" class="button">
               <img alt="button-image" src="<?php bloginfo('template_directory'); ?>/images/help-icon.png" width="60" />
-              <span class="button-title">Preguntas</span>
-              <span class="button-text">¿Perdido? Lee las respuestas a las preguntas más frecuentes y sal de dudas</span>
+              <span class="button-title">Asks</span>
+              <span class="button-text">¿Lost? Read the answers for most frecuent questions and clear your doubts</span>
             </a>
             <a href="http://dev.turpial.org.ve" class="button">
               <img alt="button-image" src="<?php bloginfo('template_directory'); ?>/images/develop-icon.png" width="60" />
-              <span class="button-title">Desarrollo</span>
-              <span class="button-text">Entérate de que manera puedes colaborar en el desarrollo proyecto</span>
+              <span class="button-title">Development</span>
+              <span class="button-text">Find out how you can collaborate with the project</span>
             </a>
             <?php get_twitter_widget(); ?>
           </div>

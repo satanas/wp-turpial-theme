@@ -1,0 +1,45 @@
+body {
+    font-family: 'helvetica neue','helvetica-neue',helvetica,arial,sans-serif;
+}
+
+a {
+    color: #006c12;
+    text-decoration: none;
+}
+
+#container {
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+#pajarito-morido {
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid #ccc 2px;
+}
+
+p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+#links {
+    padding-top: 30px;
+    font-weight: bold;
+}
+

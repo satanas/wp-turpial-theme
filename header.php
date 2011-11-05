@@ -7,10 +7,10 @@
   <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
   <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-  <?if (is_page('Home') || is_page('Características')): ?>
+  <?if (is_page('Home') || is_page('Features')): ?>
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/nivo-slider.css" type="text/css" media="screen" />
   <?php endif ?>
-  <?if (is_page('Galería')) : ?>
+  <?if (is_page('Gallery')) : ?>
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/lytebox.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/gallery.css" type="text/css" media="screen" />
   <?php endif ?>
@@ -19,8 +19,9 @@
   <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" />
-  <?php get_nivoslider_script() ?>
-  <?php get_lytebox_script() ?>
+  <?php wp_enqueue_script("jquery"); ?>
+  <?php get_nivoslider_script(); ?>
+  <?php get_lytebox_script(); ?>
   <?php wp_head(); ?>
   <script type="text/javascript">
     var disqus_developer = 1; // this would set it to developer mode

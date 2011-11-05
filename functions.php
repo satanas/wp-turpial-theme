@@ -3,10 +3,10 @@ if ( function_exists('register_sidebar') )
     register_sidebar();
 
 function get_nivoslider_script() {
+  wp_enqueue_script("jquery");
   if (is_page('Home') || is_page('Features') ) {
-    wp_enqueue_script("jquery");
     wp_enqueue_script('nivoslider', get_bloginfo('stylesheet_directory').'/scripts/jquery.nivo.slider.pack.js', 'jquery', '2.1');
-    wp_enqueue_script('nivoslider-loader', get_bloginfo('stylesheet_directory').'/scripts/nivo.slider.load.js', 'nivoslider', '1.0');
+    wp_enqueue_script('nivoslider-loader', get_bloginfo('stylesheet_directory').'/scripts/nivo.slider.load.js', 'nivoslider', '1.0'); 
   }
 }
 

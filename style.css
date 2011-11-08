@@ -210,6 +210,11 @@ margin-left: 30px;
   top: 1px;
 }
 
+#features-slider {
+    width: 700px;
+    height: 340px;
+}
+
 #features {
   height: 160px;
   background: url('images/features-background.png') bottom repeat-x #fff;

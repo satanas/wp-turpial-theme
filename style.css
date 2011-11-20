@@ -213,6 +213,7 @@ margin-left: 30px;
 #features-slider {
     width: 700px;
     height: 340px;
+    margin: 50px auto;
 }
 
 #features {

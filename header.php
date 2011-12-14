@@ -47,6 +47,7 @@
     <div id="logo-contact-icons">
       <a id="logo" href="<?php bloginfo('url'); ?>"></a>
       <div id="contact-icons">
+	<a id="paypal-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XUNXXJURA7FLW"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="" /></a>
         <a id="rss-icon" href="http://feeds.feedburner.com/turpial" title="Feed RSS"></a>
         <a id="twitter-icon" href="http://twitter.com/turpialve" title="@turpialve"></a>
         <div class="clearbox"></div>

@@ -111,6 +111,11 @@ margin-left: 30px;
 #contact-icons #twitter-icon {
   background: url('images/twitter-icon.png');
 }
+
+#contact-icons #paypal-donate {
+  margin-right: 30px;
+}
+
 #menu {
   background: url('images/menu-background.png') repeat-x #359130;
   height: 45px;

@@ -116,6 +116,10 @@ margin-left: 30px;
   margin-right: 30px;
 }
 
+.FlattrButton {
+  float: right;
+}
+
 #menu {
   background: url('images/menu-background.png') repeat-x #359130;
   height: 45px;

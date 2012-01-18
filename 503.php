@@ -5,7 +5,7 @@
 
 <head>
 
-<title>Turpial - Out of service</title>
+<title>Turpial - Against SOPA and PIPA</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" href="http://turpial.org.ve/wp-content/themes/turpial-2.0/maintenance.css" type="text/css" media="screen" />
 </head>
@@ -13,10 +13,12 @@
 <body>
   <div id="container">
     <img id="logo" src="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/turpial-logo-maintenance.png" alt="Turpial logo" width="165"/>
-    <img id="pajarito-morido" src="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/turpial-wet-floor.png" alt="Wet Floor" width="190"/>
+    <img id="sopa" src="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/stop-sopa-pipa.jpg" alt="Stop SOPA PIPA" width="400"/>
     <h1></h1>
-    <p>We're cleaning da house. Please come back in a while</p>
-      <p id="links"><a href="http://dev.turpial.org.ve/projects/turpial/issues/">Report bug</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/turpialve">Turpial in twitter</a></p>
+    <p>Today, Turpial website goes dark to protest against SOPA (Stop Online Piracy Act) and PIPA (PROTECT IP). This laws are been considered 
+    on U.S. Congress and could radically change the free and open internet as we know it.</p>
+    
+    <p>We join to the blackout to raise an awareness and avoid such absurd and destructive laws.</p>
   </div>
 </body>
 </html>

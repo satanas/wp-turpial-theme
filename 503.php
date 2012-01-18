@@ -18,7 +18,8 @@
     <p>Today, Turpial website goes dark to protest against SOPA (Stop Online Piracy Act) and PIPA (PROTECT IP). This laws are been considered 
     on U.S. Congress and could radically change the free and open internet as we know it.</p>
     
-    <p>We join to the blackout to raise an awareness and avoid such absurd and destructive laws.</p>
+    <p>We join to the blackout to raise an awareness and avoid such absurd and destructive laws. 
+    <a href="http://en.wikipedia.org/wiki/Wikipedia:SOPA_initiative/Learn_more">Learn more</a></p>
   </div>
 </body>
 </html>

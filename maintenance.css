@@ -27,6 +27,12 @@ a {
     margin: 0 auto;
 }
 
+#sopa {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
 
 h1 {
     text-align: center;

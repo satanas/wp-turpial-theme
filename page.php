@@ -21,6 +21,7 @@
                 </script>
               </div>
             </div>
+            <br/>
             <?php the_content(); ?>
         </div>
         <?php endwhile; ?>

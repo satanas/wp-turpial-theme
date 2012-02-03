@@ -267,6 +267,13 @@ margin-left: 30px;
     margin: 0 auto;
 }
 
+#turpial_ads {
+    height: 90px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
 #page-head {
   height: 40px;
   background: url('images/page-head-background.png') no-repeat #85cbe2;

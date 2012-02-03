@@ -99,6 +99,7 @@
             <?php get_twitter_widget(); ?>
           </div>
           <div class="clearbox"></div>
+          <div id="turpial_ads"> Ads Here </div>
         </div>
       </div>
       </div>

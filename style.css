@@ -262,6 +262,10 @@ margin-left: 30px;
   font-weight: bold;
 }
 
+#adsense_container {
+    background: #fff;
+}
+
 #turpial_adsense {
     width: 730px;
     background: #fff;

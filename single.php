@@ -44,7 +44,8 @@
           <div id="sidebar">
             <?php get_sidebar(); ?>
           </div>
-          <div class="clearbox"></div>  
+          <div class="clearbox"></div>
+          <div id="turpial_ads"> Ads Here </div>
         </div>
       </div>
       </div>

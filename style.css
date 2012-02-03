@@ -262,6 +262,11 @@ margin-left: 30px;
   font-weight: bold;
 }
 
+#turpial_adsense {
+    background: #fff;
+    margin: 0 auto;
+}
+
 #page-head {
   height: 40px;
   background: url('images/page-head-background.png') no-repeat #85cbe2;

@@ -38,7 +38,7 @@ new TWTR.Widget({
   title: 'Turpial in twitter',
   subject: '#turpial',
   width: 'auto',
-  height: 300,
+  height: 370,
   theme: {
     shell: {
       background: '#009de0',

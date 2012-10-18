@@ -75,7 +75,8 @@
         <ul>
           <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
           <?php wp_list_pages('title_li=&depth=1'); ?>
-          <li><a href="http://dev.turpial.org.ve">Development</a></li>    
+          <li><a href="http://wiki.turpial.org.ve">Wiki</a></li>
+          <li><a href="http://github.com/Turpial">Development</a></li>
         </ul>
       </div>
     </div>

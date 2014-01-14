@@ -57,6 +57,7 @@
             <?php get_sidebar(); ?>
           </div>
           <div class="clearbox"></div>
+<div id="adsense_container">
           <div id="turpial_ads">
                <script type="text/javascript"><!--
                 google_ad_client = "ca-pub-9865703181407066";

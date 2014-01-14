@@ -50,7 +50,7 @@ margin-left: 30px;
   clear: both;
 }
 
-.shadow {
+.container {
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
   box-shadow: 0 3px 10px 3px #111;  
@@ -64,7 +64,9 @@ margin-left: 30px;
   margin: 0 auto -170px;
 }
 
-#logo-contact-icons {
+/* Global header */
+
+#header {
   position: relative;
   height: 140px;
 }
@@ -110,6 +112,8 @@ margin-left: 30px;
   float: right;
 }
 
+/* Navigation menu */
+
 #menu {
   background: url('images/menu-background.png') repeat-x #359130;
   height: 45px;
@@ -152,6 +156,11 @@ margin-left: 30px;
 #menu a:active {
   margin-top: 15px;
 }
+
+
+
+
+
 
 #page ol, #page ul{
   margin-left: 30px;
@@ -206,7 +215,7 @@ margin-left: 30px;
   left: -22px;
 }
 
-#download-button:active { 
+#download-button:active {
   top: 1px;
 }
 

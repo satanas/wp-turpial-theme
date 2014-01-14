@@ -33,9 +33,8 @@
                 </div> <!-- end posts -->
 
                 <?php get_sidebar(); ?>
-
+                <?php get_template_part('footer_ads'); ?>
             </div> <!-- end page -->
-            <?php get_template_part('footer_ads'); ?>
         </div> <!-- end container -->
         <div class="push"></div>
     </div> <!-- end wrapper -->

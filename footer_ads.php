@@ -5,7 +5,7 @@ Template Name: Footer Ads
 ?>
 
 <div id="adsense_container">
-    <div id="turpial_ads">
+    <div class="turpial_adsense_footer">
         <script type="text/javascript"><!--
         google_ad_client = "ca-pub-9865703181407066";
         /* Turpial Footer */

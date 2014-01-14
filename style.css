@@ -1,13 +1,3 @@
-/*  
-Theme Name: Turpial
-Theme URI: http://www.turpial.org.ve
-Description: Tema wordpress para Turpial.
-Version: 2.0
-Author: Eleazar Meza
-Author URI: http://twitter.com/elshaka
-
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +8,7 @@ html, body {
 }
 
 body {
-  background: url('images/carbon-top.png') top repeat-x #262626;
+  background-color: #262626;
   font-family: Arial, Helmet, Freesans, sans-serif;
 }
 
@@ -67,10 +57,10 @@ margin-left: 30px;
 }
 
 #wrapper {
-  min-height: 100%;  
-  height: auto !important;  
+  min-height: 100%;
+  height: auto !important;
   height: 100%;
-  width: 900px;
+  width: 1000px;
   margin: 0 auto -170px;
 }
 
@@ -262,17 +252,23 @@ margin-left: 30px;
   font-weight: bold;
 }
 
-#adsense_container {
+.adsense_container {
     background: #fff;
 }
 
-#turpial_adsense {
-    width: 730px;
+.turpial_adsense_header {
+    width: 560px;
     background: #fff;
     margin: 0 auto;
 }
 
-#turpial_adsense_sidebar {
+.turpial_adsense_footer {
+    width: 560px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.turpial_adsense_sidebar {
     background: #fff;
     margin: 0 auto;
 }
@@ -300,7 +296,7 @@ margin-left: 30px;
   background: #fff;
   -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
-  padding: 30px;
+  padding: 15px;
   margin-bottom: 20px;
 }
 
@@ -321,9 +317,8 @@ margin-left: 30px;
 
 #news, #posts {
   float: left;
-  border-right: solid 2px #ddd;
-  padding-right: 30px;
-  width: 520px;
+  padding-right: 20px;
+  width: 680px;
 }
 
 #news-title img {
@@ -468,10 +463,6 @@ margin-left: 30px;
 }
 
 /* Blog */
-
-#posts .post {
-  border-bottom: 2px solid #ddd;
-}
 
 #posts .post p {
   text-align: justify;

@@ -1,24 +1,6 @@
 <?php get_header(); ?>
     <div id="content">
-        <div id="page-head">
-              <h1>Blog</h1>
-        </div>
         <div id="page">
-          <div id="adsense_container">
-              <div id="turpial_adsense">
-                <script type="text/javascript"><!--
-                google_ad_client = "ca-pub-9865703181407066";
-                /* Turpial Footer */
-                google_ad_slot = "1694063806";
-                google_ad_width = 728;
-                google_ad_height = 90;
-                //-->
-                </script>
-                <script type="text/javascript"
-                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                </script>
-              </div>
-            </div>
           <div id="posts">
             <?php if(have_posts()) : ?>
               <?php while(have_posts()) : the_post(); ?>
@@ -31,7 +13,24 @@
               <?php the_content(); ?>
               <span class="comment-count"><img alt="coment-icon" src="<?php bloginfo('template_directory'); ?>/images/comment-icon.png" width="16" /><?php comments_popup_link('No comments', '1 comment', '% comments'); ?></span>
             </div>
-              <?php endwhile; ?>
+            <?php endwhile; ?>
+
+            <div id="adsense_container">
+              <div id="turpial_adsense">
+                <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-9865703181407066";
+                /* Turpial Pre-Comment */
+                google_ad_slot = "9336785207";
+                google_ad_width = 468;
+                google_ad_height = 60;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+              </div>
+            </div>
+
             <div class="comments-template">
               <?php comments_template(); ?>
             </div>
@@ -39,10 +38,9 @@
           <div class="post">
             <h2><?php _e('We couldn\'t find posts'); ?></h2>
           </div>
-          <?php endif ?>            
+          <?php endif ?>
           </div>
           <div id="sidebar">
-            <?php get_sidebar(); ?>
             <div id="turpial_adsense_sidebar">
                 <script type="text/javascript"><!--
                 google_ad_client = "ca-pub-9865703181407066";
@@ -56,9 +54,22 @@
                 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                 </script>
             </div>
+            <?php get_sidebar(); ?>
           </div>
           <div class="clearbox"></div>
-          <div id="turpial_ads"> Ads Here </div>
+          <div id="turpial_ads">
+               <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-9865703181407066";
+                /* Turpial Footer */
+                google_ad_slot = "1694063806";
+                google_ad_width = 728;
+                google_ad_height = 90;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+          </div>
         </div>
       </div>
       </div>

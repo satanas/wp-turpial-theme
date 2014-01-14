@@ -7,7 +7,6 @@ Template Name: Head
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <?if (is_page('Home') || is_page('Features')): ?>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/nivo-slider.css" type="text/css" media="screen" />
 <?php endif ?>
@@ -21,6 +20,7 @@ Template Name: Head
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <?php wp_enqueue_script("jquery"); ?>
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <script type="text/javascript">
   var disqus_developer = 0; // this would set it to developer mode
 </script>

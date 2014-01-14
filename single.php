@@ -35,9 +35,10 @@
                 <?php get_sidebar(); ?>
 
             </div> <!-- end page -->
-            <?php get_footer(); ?>
+            <?php get_template_part('footer_ads'); ?>
         </div> <!-- end container -->
-        <!-- div class="push"></div -->
+        <div class="push"></div>
     </div> <!-- end wrapper -->
+    <?php get_footer(); ?>
 </body>
 </html>

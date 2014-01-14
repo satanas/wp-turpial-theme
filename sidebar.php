@@ -17,6 +17,20 @@
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
     <?php endif; ?>
     </ul>
+
+    <div id="turpial_adsense_sidebar">
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9865703181407066";
+        /* Turpial Sidebar Bottom */
+        google_ad_slot = "6623664408";
+        google_ad_width = 250;
+        google_ad_height = 250;
+        //-->
+        </script>
+        <script type="text/javascript"
+        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </div>
 </div>
 <div class="clearbox"></div>
 

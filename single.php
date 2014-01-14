@@ -16,7 +16,7 @@
             <div id="page">
                 <div id="posts">
                 <?php if(have_posts()) : ?>
-                <?php while(have_posts()) : the_post(); ?>
+                    <?php while(have_posts()) : the_post(); ?>
                     <div class="post">
                         <div class="post-head">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -25,7 +25,7 @@
                         </div>
                         <?php the_content(); ?>
                     </div>
-
+                    <?php endwhile; ?>
                     <div class="comments-template"><?php comments_template(); ?></div>
                 <?php else : ?>
                     <h2><?php _e('We couldn\'t find posts'); ?></h2>

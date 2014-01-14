@@ -88,7 +88,7 @@ margin-left: 30px;
 
 #contact-icons a {
   float: right;
-  display: block;	
+  display: block;
   width: 37px;
   height: 33px;
   margin: 28px 5px 0 0;
@@ -167,6 +167,7 @@ margin-left: 30px;
   float: left;
   margin: 45px 0 0 45px;
 }
+
 #gallery {
   background: #000;
   width: 320px;
@@ -209,11 +210,11 @@ margin-left: 30px;
   top: 1px;
 }
 
-#features-slider {
-    width: 700px;
-    height: 340px;
-    margin: 50px auto;
-}
+/*#features-slider {
+  width: 700px;
+  height: 340px;
+  margin: 50px auto;
+}*/
 
 #features {
   height: 160px;
@@ -252,34 +253,32 @@ margin-left: 30px;
   font-weight: bold;
 }
 
+/* Ads */
+
 .adsense_container {
-    background: #fff;
+  background: #fff;
 }
 
 .turpial_adsense_header {
-    width: 560px;
-    background: #fff;
-    margin: 0 auto;
+  width: 560px;
+  margin: 0 auto;
+}
+
+.turpial_adsense_post {
+  width: 468px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .turpial_adsense_footer {
-    width: 560px;
-    background: #fff;
-    margin: 0 auto;
+  width: 728px;
+  height: 90px;
+  margin: 10px auto;
+  text-align: center;
 }
 
-.turpial_adsense_sidebar {
-    background: #fff;
-    margin: 0 auto;
-}
-
-#turpial_ads {
-    height: 90px;
-    background: #fff;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center;
-}
+/* End ads */
 
 #page-head {
   height: 40px;
@@ -332,6 +331,8 @@ margin-left: 30px;
   color: #999;
   padding-top: 5px;
 }
+
+/**** Post stuff ****/
 
 .post {
   margin-top: 20px;

@@ -35,8 +35,8 @@
                 <?php get_sidebar(); ?>
 
             </div> <!-- end page -->
+            <?php get_footer(); ?>
         </div> <!-- end container -->
-        <?php get_footer(); ?>
         <!-- div class="push"></div -->
     </div> <!-- end wrapper -->
 </body>

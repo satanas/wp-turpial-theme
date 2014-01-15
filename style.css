@@ -90,6 +90,7 @@ margin-left: 30px;
   height: 48px;
   width: 900px;
   margin: 0 auto;
+  padding-left: 100px;
 }
 
 #menu li {
@@ -117,8 +118,9 @@ margin-left: 30px;
 .menu-icon {
   float: right;
   display: block;
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
 }
 
 .rss {

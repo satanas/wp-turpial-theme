@@ -242,8 +242,9 @@ margin-left: 30px;
   margin-right: 10px;
 }
 
-.feature .icon {
+.feature img {
   float: left;
+  display: block;
   margin-right: 10px;
 }
 

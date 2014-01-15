@@ -12,15 +12,15 @@
         <div id="page">
             <div id="features">
                 <div class="feature">
-                    <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/images/beauty.png"/></div>
-                    <div class="title">Simplicity</div>
-                    <div class="text">UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</div>
+                    <img src="<?php bloginfo('template_directory'); ?>/images/beauty.png"/>
+                    <h3>Simplicity</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
                 </div>
 
                 <div class="feature">
-                    <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/images/broadcast.png"/></div>
-                    <div class="title">Broadcast</div>
-                    <div class="text">UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</div>
+                    <img src="<?php bloginfo('template_directory'); ?>/images/broadcast.png"/>
+                    <h3>Broadcast</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
                 </div>
             </div>
             <div class="clearbox"></div>

@@ -19,8 +19,8 @@
 
                 <div class="feature">
                     <img src="<?php bloginfo('template_directory'); ?>/images/queue.png"/>
-                    <h3>Queue ?</h3>
-                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                    <h3>Cooperative</h3>
+                    <p>Posting tweets from the queue while your "work"</p>
                 </div>
 
                 <div class="feature">
@@ -28,6 +28,7 @@
                     <h3>Linguist</h3>
                     <p>Speaking more than 10 languagues</p>
                 </div>
+                <div class="clearbox"></div>
 
                 <div class="feature">
                     <img src="<?php bloginfo('template_directory'); ?>/images/feature-versatile.png"/>
@@ -46,6 +47,7 @@
                     <h3>Visual</h3>
                     <p>With image preview for lots of services</p>
                 </div>
+                <div class="clearbox"></div>
 
                 <div class="feature">
                     <img src="<?php bloginfo('template_directory'); ?>/images/feature-selective.png"/>

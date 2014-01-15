@@ -4,6 +4,8 @@
             <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
             <?php wp_list_pages('title_li=&depth=1'); ?>
             <li><a href="http://wiki.turpial.org.ve">Wiki</a></li>
+            <li><a class="twitter-icon" href="http://twitter.com/turpialve" title="@turpialve"></a></li>
+            <li><a class="google-plus-icon" href="" title="TurpialVe G+"></a></li>
         </ul>
     </div>
 </div>
@@ -18,7 +20,6 @@
         </noscript>
         <a id="paypal-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3QDYV3JLXPQ7U"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="" /></a>
         <a id="rss-icon" href="http://turpial.org.ve/feed/" title="Feed RSS"></a>
-        <a id="twitter-icon" href="http://twitter.com/turpialve" title="@turpialve"></a>
         <div class="clearbox"></div>
     </div>
 </div>

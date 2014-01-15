@@ -86,13 +86,10 @@ margin-left: 30px;
 
 #menu {
   background: url('images/logo.png') no-repeat #363636;
-  height: 60px;
-  width: 600px;
-  margin: 0 auto;
-}
-
-#menu {
   border-bottom: solid 1px #333;
+  height: 48px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 #menu li {
@@ -102,7 +99,6 @@ margin-left: 30px;
 #menu ul, #menu li {
   list-style-type: none;
   height: 100%;
-  border-right: solid 1px #333;
   padding-right: 14px;
 }
 
@@ -159,12 +155,16 @@ margin-left: 30px;
   margin: 28px 5px 0 0;
 }
 
-#contact-icons #rss-icon {
-  background: url('images/rss-icon.png');
+.rss-icon {
+  background: url('images/icon-rss.png');
 }
 
-#contact-icons #twitter-icon {
-  background: url('images/twitter-icon.png');
+.twitter-icon {
+  background: url('images/icon-twitter.png');
+}
+
+.google-plus-icon {
+  background: url('images/google-plus-icon.png');
 }
 
 #contact-icons #paypal-donate {

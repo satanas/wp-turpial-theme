@@ -227,42 +227,47 @@ margin-left: 30px;
   margin: 50px auto;
 }*/
 
+/*
 #features {
   height: 160px;
   background: url('images/features-background.png') bottom repeat-x #fff;
   border-bottom: solid 1px #333;
   padding: 20px; 
 }
+*/
 
 .feature {
   float: left;
-  width: 270px;
+  width: 2300px;
   margin-right: 10px;
 }
 
-.feature img {
+.feature .icon {
   float: left;
   margin-right: 10px;
 }
 
-.feature-text {
+.feature h3 {
   float:left;
-  width: 200px;
 }
 
-.feature-text h2 {
+.feature p {
+  float:left;
+  display: block;
+  word-wrap: break-word;
+  width: 200px;
   padding-bottom: 8px;
 }
 
-.feature-text p {
-  line-height: 20px;
-}
 
+
+/*
 .more {
   float:right;
   font-size: 16px;
   font-weight: bold;
 }
+*/
 
 /* Ads */
 

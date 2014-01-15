@@ -10,7 +10,20 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-            <div id="features"></div>
+            <div id="features">
+                <div class="feature">
+                    <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/images/beauty.png"/></div>
+                    <div class="title">Simplicity</div>
+                    <div class="text">UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</div>
+                </div>
+
+                <div class="feature">
+                    <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/images/broadcast.png"/></div>
+                    <div class="title">Broadcast</div>
+                    <div class="text">UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</div>
+                </div>
+            </div>
+
         </div>
     </div>
 

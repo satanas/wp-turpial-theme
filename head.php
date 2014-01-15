@@ -44,8 +44,7 @@ _gaq.push(['_trackPageview']);
         var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
         s.type = 'text/javascript';
         s.async = true;
-        s.button = 'compact';
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto&button=compact';
         t.parentNode.insertBefore(s, t);
     })();
 /* ]]> */

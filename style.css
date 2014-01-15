@@ -62,6 +62,11 @@ margin-left: 30px;
 }
 
 .container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto -170px;
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
   box-shadow: 0 3px 10px 3px #111;

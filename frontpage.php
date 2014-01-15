@@ -8,11 +8,13 @@
 
 <body>
     <?php get_header(); ?>
+    <div class="container">
+    </div>
 
 <div id="content">
       <div id="landscape">
         <div id="gallery" class="landscape-item">
-          <div id="main-slider" class="slider">    
+          <div id="main-slider" class="slider">
             <img src="<?php bloginfo('template_directory'); ?>/images/main-slider/slide1.png" alt="" />
             <img src="<?php bloginfo('template_directory'); ?>/images/main-slider/slide2.png" alt="" />
             <img src="<?php bloginfo('template_directory'); ?>/images/main-slider/slide3.png" alt="" />

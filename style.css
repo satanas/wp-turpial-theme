@@ -81,11 +81,12 @@ margin-left: 30px;
   left:0px;
   width: 100%;
   z-index: 1;
+  background-color: #363636;
 }
 
 #menu {
-  background: url('images/menu-background.png') repeat-x #359130;
-  height: 45px;
+  background: url('images/logo.png') no-repeat #363636;
+  height: 60px;
   width: 600px;
   margin: 0 auto;
 }

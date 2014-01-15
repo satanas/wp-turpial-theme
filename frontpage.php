@@ -23,7 +23,7 @@
                     <div class="text">UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</div>
                 </div>
             </div>
-
+            <div class="clearbox"></div>
         </div>
     </div>
 

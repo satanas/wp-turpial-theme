@@ -227,14 +227,10 @@ margin-left: 30px;
   margin: 50px auto;
 }*/
 
-/*
+
 #features {
-  height: 160px;
-  background: url('images/features-background.png') bottom repeat-x #fff;
-  border-bottom: solid 1px #333;
-  padding: 20px; 
+  margin: 0 20px;
 }
-*/
 
 .feature {
   float: left;

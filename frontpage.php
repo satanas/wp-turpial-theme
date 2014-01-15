@@ -12,14 +12,56 @@
         <div id="page">
             <div id="features">
                 <div class="feature">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/beauty.png"/>
-                    <h3>Simplicity</h3>
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-simple.png"/>
+                    <h3>Simple</h3>
                     <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
                 </div>
 
                 <div class="feature">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/broadcast.png"/>
-                    <h3>Broadcast</h3>
+                    <img src="<?php bloginfo('template_directory'); ?>/images/queue.png"/>
+                    <h3>Queue ?</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-linguist.png"/>
+                    <h3>Linguist</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-versatile.png"/>
+                    <h3>Versatile</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-integrated.png"/>
+                    <h3>Integrated</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-visual.png"/>
+                    <h3>Visual</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-selective.png"/>
+                    <h3>Selective</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-agile.png"/>
+                    <h3>Agile</h3>
+                    <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
+                </div>
+
+                <div class="feature">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/feature-ecofriendly.png"/>
+                    <h3>Eco-friendly</h3>
                     <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
                 </div>
 

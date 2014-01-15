@@ -70,15 +70,15 @@ margin-left: 30px;
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
   box-shadow: 0 3px 10px 3px #111;
-  -moz-border-radius: 0 0 5px 5px;
-  -webkit-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
 }
 
 #page {
   background: #fff;
   padding: 20px 0;
   margin-bottom: 20px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 /* Global header */
@@ -89,11 +89,11 @@ margin-left: 30px;
   left:0px;
   width: 100%;
   z-index: 1;
-  background-color: #262626;
+  background-color: #006c12;
 }
 
 #menu {
-  background: url('images/logo.png') no-repeat #262626;
+  background: url('images/logo.png') no-repeat #006c12;
   height: 48px;
   width: 900px;
   margin: 0 auto;
@@ -180,7 +180,7 @@ margin-left: 30px;
 }*/
 
 
-
+/*
 #contact-icons #paypal-donate {
   margin-right: 35px;
 }
@@ -201,6 +201,7 @@ margin-left: 30px;
   padding-top: 15px;
   margin-bottom: 15px;
 }
+*/
 
 #download-button {
   position: relative;
@@ -321,32 +322,16 @@ margin-left: 30px;
 */
 
 /*#news, #posts {*/
+
 #posts {
   float: left;
   width: 720px;
 }
 
-/*
-#news-title img {
-  float: left;
-  padding-right: 5px;
-  margin-bottom: 5px;
-}
-
-#news-title h2 {
-  font-size: 25px;
-  color: #999;
-  padding-top: 5px;
-}
-
-*/
-
-/**** Post stuff ****/
-
 .post {
   margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .post .head {
@@ -378,6 +363,21 @@ margin-left: 30px;
   margin: 0 20px 50px 20px;
 }
 
+.post .content p {
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.post .content p a {
+  color: #009f00;
+  text-decoration: none;
+}
+
+.post .content p a:hover {
+  text-decoration: underline;
+}
+
 .comments-template {
   margin: 0 20px;
 }
@@ -407,7 +407,7 @@ figcaption {
 }
 
 
-
+/*
 #news .post p {
   display: inline;
 }
@@ -463,6 +463,7 @@ figcaption {
   color: #fff;
   font-size: 12px;
 }
+*/
 
 #footer {
   height: 170px;
@@ -509,12 +510,6 @@ figcaption {
   line-height: 40px;
   padding-left: 10px;
   vertical-align: top;
-}
-
-/* Blog */
-
-#posts .post p {
-  text-align: justify;
 }
 
 /*

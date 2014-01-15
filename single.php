@@ -16,14 +16,17 @@
                 <?php if(have_posts()) : ?>
                     <?php while(have_posts()) : the_post(); ?>
                     <div class="post">
-                        <div class="post-head">
+                        <div class="head">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             <span class="metadata">
-                                <span class="author"><?php _e('BY'); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                                 <span class="date"><?php the_time('M d, Y'); ?></span>
+                                <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                             </span>
                         </div>
-                        <?php the_content(); ?>
+
+                        <div class="content">
+                            <?php the_content(); ?>
+                        </div>
                     </div>
                     <?php endwhile; ?>
                     <div class="comments-template"><?php comments_template(); ?></div>

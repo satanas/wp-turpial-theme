@@ -125,7 +125,7 @@ margin-left: 30px;
 }
 
 .menu-spacer {
-  width: 340px;
+  width: 260px;
 }
 
 .rss {
@@ -328,6 +328,7 @@ margin-left: 30px;
   width: 720px;
 }
 
+/*
 #news-title img {
   float: left;
   padding-right: 5px;
@@ -340,6 +341,8 @@ margin-left: 30px;
   padding-top: 5px;
 }
 
+*/
+
 /**** Post stuff ****/
 
 .post {
@@ -348,31 +351,32 @@ margin-left: 30px;
   font-size: 14px;
 }
 
-.post-head {
-  position: relative;
-  background: url('images/post-title-background.png') bottom right no-repeat;
+.post .head {
   padding-bottom: 18px;
-  margin-bottom: 30px;
 }
 
-.post h2 {
+.post .head h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 400px;
+  margin: 0 20px;
 }
 
-.post-head .metadata {
-  position: absolute;
-  bottom: -10px;
-  right: 0;
-  background: url('images/post-metadata-background.png') repeat-x #73d216;
+.post .head .metadata {
   display: block;
   height: 14px;
   color: #fff;
   font-size: 12px;
   line-height: 16px;
   padding: 4px 6px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+}
+
+.post .head .metadata .date {
+  margin-right: 10px;
+}
+
+.post .content {
+  margin: 0 20px;
 }
 
 #news .post p {

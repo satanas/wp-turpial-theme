@@ -147,23 +147,22 @@ margin-left: 30px;
   padding-bottom: 10px;
 }
 
-#contact-icons a {
+.menu-icon {
   float: right;
   display: block;
-  width: 37px;
-  height: 33px;
-  margin: 28px 5px 0 0;
+  width: 42px;
+  height: 42px;
 }
 
-.rss-icon {
+.rss {
   background: url('images/icon-rss.png');
 }
 
-.twitter-icon {
+.twitter {
   background: url('images/icon-twitter.png');
 }
 
-.google-plus-icon {
+.google-plus {
   background: url('images/google-plus-icon.png');
 }
 

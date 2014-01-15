@@ -4,8 +4,8 @@
             <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
             <?php wp_list_pages('title_li=&depth=1'); ?>
             <li><a href="http://wiki.turpial.org.ve">Wiki</a></li>
-            <li><a class="twitter-icon" href="http://twitter.com/turpialve" title="@turpialve"></a></li>
-            <li><a class="google-plus-icon" href="" title="TurpialVe G+"></a></li>
+            <li><a class="twitter menu-icon" href="http://twitter.com/turpialve" title="@turpialve"></a></li>
+            <li><a class="google-plus menu-icon" href="" title="TurpialVe G+"></a></li>
         </ul>
     </div>
 </div>

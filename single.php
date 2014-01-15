@@ -9,38 +9,36 @@
 <body>
     <?php get_header(); ?>
 
-    <div id="wrapper">
-        <div class="container">
-            <div id="page">
-                <div id="posts">
-                <?php if(have_posts()) : ?>
-                    <?php while(have_posts()) : the_post(); ?>
-                    <div class="post">
-                        <div class="head">
-                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <span class="metadata">
-                                <span class="date"><?php the_time('M d, Y'); ?></span>
-                                <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
-                            </span>
-                        </div>
-
-                        <div class="content">
-                            <?php the_content(); ?>
-                        </div>
+    <div id="container">
+        <div id="page">
+            <div id="posts">
+            <?php if(have_posts()) : ?>
+                <?php while(have_posts()) : the_post(); ?>
+                <div class="post">
+                    <div class="head">
+                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                        <span class="metadata">
+                            <span class="date"><?php the_time('M d, Y'); ?></span>
+                            <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
+                        </span>
                     </div>
-                    <?php endwhile; ?>
-                    <div class="comments-template"><?php comments_template(); ?></div>
-                <?php else : ?>
-                    <h2><?php _e('We couldn\'t find posts'); ?></h2>
-                <?php endif ?>
-                </div> <!-- end posts -->
 
-                <?php get_sidebar(); ?>
-                <?php get_template_part('footer_ads'); ?>
-            </div> <!-- end page -->
-        </div> <!-- end container -->
-        <div class="push"></div>
-    </div> <!-- end wrapper -->
+                    <div class="content">
+                        <?php the_content(); ?>
+                    </div>
+                </div>
+                <?php endwhile; ?>
+                <div class="comments-template"><?php comments_template(); ?></div>
+            <?php else : ?>
+                <h2><?php _e('We couldn\'t find posts'); ?></h2>
+            <?php endif ?>
+            </div> <!-- end posts -->
+
+            <?php get_sidebar(); ?>
+            <?php get_template_part('footer_ads'); ?>
+        </div> <!-- end page -->
+    </div> <!-- end container -->
+    <div class="push"></div>
 
     <?php get_footer(); ?>
 </body>

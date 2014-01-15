@@ -8,7 +8,9 @@
 
 <body>
     <?php get_header(); ?>
-    <div class="container">
+    <div id="container">
+        <div id="page">
+        </div>
     </div>
 
 <div id="content">

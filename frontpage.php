@@ -10,6 +10,7 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
+            <div id="features"></div>
         </div>
     </div>
 

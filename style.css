@@ -30,6 +30,7 @@ a img {
   border: 0;
 }
 
+/*
 h1, h2, h3 {
   color: #333;
 }
@@ -45,6 +46,7 @@ h2 {
 h3 {
   font-size: 16px;
 }
+*/
 
 p, ol, ul, span {
   color: #555;
@@ -282,6 +284,16 @@ margin-left: 30px;
 
 /* End ads */
 
+#page {
+  background: #fff;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/*
 #page-head {
   height: 40px;
   background: url('images/page-head-background.png') no-repeat #85cbe2;
@@ -292,14 +304,8 @@ margin-left: 30px;
 #page-head h1 {
   color: #333;
 }
+*/
 
-#page {
-  background: #fff;
-  -moz-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
-  padding: 15px;
-  margin-bottom: 20px;
-}
 
 #page h2, #page h3, #page p, #page ul, #page ol {
   padding-bottom: 10px;
@@ -316,10 +322,10 @@ margin-left: 30px;
   margin-bottom: 10px;
 }
 
-#news, #posts {
+/*#news, #posts {*/
+#posts {
   float: left;
-  padding-right: 20px;
-  width: 680px;
+  width: 720px;
 }
 
 #news-title img {
@@ -519,8 +525,8 @@ margin-left: 30px;
 
 #sidebar {
   float: right;
-  width: 260px;
-  margin-top: 10px;
+  width: 265px;
+  margin-top: 30px;
 }
 
 #sidebar ul {

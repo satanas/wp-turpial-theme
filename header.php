@@ -4,8 +4,9 @@
             <li><a class="menu-item" href="<?php bloginfo('url'); ?>">Home</a></li>
             <li><a class="menu-item" href="http://turpial.org.ve/downloads">Downloads</a></li>
             <li><a class="menu-item" href="http://turpial.org.ve/news">Blog</a></li>
-            <li><a class="menu-item" href="http://github.com/satanas/Turpial">Github</a></li>
-            <li><a class="menu-item" href="http://wiki.turpial.org.ve">Wiki</a></li>
+            <li><a class="menu-item" href="http://github.com/satanas/Turpial" target="_blank">Github</a></li>
+            <li><a class="menu-item" href="http://wiki.turpial.org.ve" target="_blank">Wiki</a></li>
+            <li><a class="menu-item" href="http://turpial.org.ve/donate">Donate</a></li>
             <li class="menu-spacer"></li>
             <li><a class="twitter menu-icon" href="http://twitter.com/turpialve" title="@turpialve"></a></li>
             <li><a class="google-plus menu-icon" href="https://www.google.com/+TurpialOrgVe" title="Google+"></a></li>

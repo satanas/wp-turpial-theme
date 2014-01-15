@@ -19,7 +19,9 @@
                         <div class="post-head">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             <span class="metadata">
-                            <?php _e('Posted '); the_time('m/d/Y'); _e(' by '); _e(' '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
+                                <span class="author"><?php _e('BY'); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
+                                <span class="date"><?php the_time('M d, Y'); ?></span>
+                            </span>
                         </div>
                         <?php the_content(); ?>
                     </div>

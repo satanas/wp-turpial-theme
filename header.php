@@ -2,10 +2,11 @@
     <div id="menu">
         <ul>
             <li><a class="menu-item" href="<?php bloginfo('url'); ?>">Home</a></li>
-            <?php wp_list_pages('title_li=&depth=1'); ?>
+            <li><a class="menu-item" href="http://turpial.org.ve/downloads">Downloads</a></li>
+            <li><a class="menu-item" href="http://turpial.org.ve/news">Blog</a></li>
             <li><a class="menu-item" href="http://wiki.turpial.org.ve">Wiki</a></li>
             <li><a class="twitter menu-icon" href="http://twitter.com/turpialve" title="@turpialve"></a></li>
-            <li><a class="google-plus menu-icon" href="" title="TurpialVe G+"></a></li>
+            <li><a class="google-plus menu-icon" href="https://www.google.com/+TurpialOrgVe" title="Google+"></a></li>
             <li><a class="rss menu-icon" href="http://turpial.org.ve/feed/" title="Feed RSS"></a></li>
             <!-- li><a class="FlattrButton" style="display:none;" href="http://turpial.org.ve"></a>
                 <noscript>

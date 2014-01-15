@@ -7,12 +7,11 @@
 </head>
 
 <body>
+    <?php get_header(); ?>
+
     <div id="wrapper">
-        <?php get_header(); ?>
 
         <div class="container">
-            <?php get_template_part('menu'); ?>
-
             <div id="page">
                 <div id="posts">
                 <?php if(have_posts()) : ?>

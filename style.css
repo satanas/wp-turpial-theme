@@ -23,7 +23,6 @@ body {
 
 a {
   color: #006c12;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -63,7 +62,7 @@ margin-left: 30px;
 .container {
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
-  box-shadow: 0 3px 10px 3px #111;  
+  box-shadow: 0 3px 10px 3px #111;
 }
 
 #wrapper {
@@ -75,6 +74,59 @@ margin-left: 30px;
 }
 
 /* Global header */
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left:0px;
+  width: 100%;
+  z-index: 1;
+}
+
+#menu {
+  background: url('images/menu-background.png') repeat-x #359130;
+  height: 45px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#menu {
+  border-bottom: solid 1px #333;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu ul, #menu li {
+  list-style-type: none;
+  height: 100%;
+  border-right: solid 1px #333;
+  padding-right: 14px;
+}
+
+#menu a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #000;
+  color: #eee;
+  display: block;
+  text-decoration: none;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+
+#menu a:hover {
+  text-shadow: 0 1px 5px #333;
+  color: #fff;
+}
+
+#menu a:active {
+  margin-top: 15px;
+}
+
+
 
 #header {
   position: relative;
@@ -120,51 +172,6 @@ margin-left: 30px;
 
 .FlattrButton {
   float: right;
-}
-
-/* Navigation menu */
-
-#menu {
-  background: url('images/menu-background.png') repeat-x #359130;
-  height: 45px;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-}
-
-#menu {
-  border-bottom: solid 1px #333;
-}
-
-#menu li {
-  float: left;
-}
-
-#menu ul, #menu li {
-  list-style-type: none;
-  height: 100%;
-  border-right: solid 1px #333;
-  padding-right: 14px;
-}
-
-#menu a {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
-  text-shadow: 0 1px 1px #000;
-  color: #eee;
-  display: block;
-  text-decoration: none;
-  margin-left: 14px;
-  margin-top: 14px;
-}
-
-#menu a:hover {
-  text-shadow: 0 1px 5px #333;
-  color: #fff;
-}
-
-#menu a:active {
-  margin-top: 15px;
 }
 
 #description {

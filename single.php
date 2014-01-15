@@ -10,7 +10,6 @@
     <?php get_header(); ?>
 
     <div id="wrapper">
-
         <div class="container">
             <div id="page">
                 <div id="posts">
@@ -37,6 +36,7 @@
         </div> <!-- end container -->
         <div class="push"></div>
     </div> <!-- end wrapper -->
+
     <?php get_footer(); ?>
 </body>
 </html>

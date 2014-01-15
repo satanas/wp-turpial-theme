@@ -20,11 +20,3 @@
         </ul>
     </div>
 </div>
-
-<div id="header">
-    <a id="logo" href="<?php bloginfo('url'); ?>"></a>
-    <div id="contact-icons">
-        
-        <div class="clearbox"></div>
-    </div>
-</div>

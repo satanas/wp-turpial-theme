@@ -81,12 +81,11 @@ margin-left: 30px;
   left:0px;
   width: 100%;
   z-index: 1;
-  background-color: #363636;
+  background-color: #262626;
 }
 
 #menu {
-  background: url('images/logo.png') no-repeat #363636;
-  border-bottom: solid 1px #333;
+  background: url('images/logo.png') no-repeat #262626;
   height: 48px;
   width: 900px;
   margin: 0 auto;
@@ -121,6 +120,10 @@ margin-left: 30px;
   width: 32px;
   height: 32px;
   margin-top: 8px;
+}
+
+.menu-spacer {
+  width: 200px;
 }
 
 .rss {

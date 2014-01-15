@@ -22,9 +22,11 @@
                     <h3>Broadcast</h3>
                     <p>UI design bla bla bla bla bleahjskdh hakjsdhkj asdjkhaskjdh asjkdh</p>
                 </div>
+
+                <div class="clearbox"></div>
             </div>
-            <div class="clearbox"></div>
         </div>
+        <div class="clearbox"></div>
     </div>
 
 <div id="content">

@@ -3,6 +3,7 @@
     <?php if($my_query->have_posts()) : ?>
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
         <div class="post-thumbnail">
+            <div class="shadow"></div>
             <?php the_post_thumbnail(); ?>
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             <span>

@@ -446,6 +446,7 @@ margin-left: 30px;
 
 #latest-news-title {
   font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
   font-weight: 300;
   padding:10px 20px 0 20px;
   margin-bottom: 20px;
@@ -467,14 +468,35 @@ margin-left: 30px;
   border: 1px solid #fff;
 }
 
+.post-thumbnail .shadow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 220px;
+  height: 165px;
+}
+
 .post-thumbnail a {
   position: absolute;
   bottom: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  margin: 0 8px;
+
 }
 
 .post-thumbnail span {
   position: absolute;
   bottom: 0px;
+  margin: 5px 10px;
+}
+
+.post-thumbnail span p {
+  color: #fff;
+  font-size: 11px;
 }
 
 .comments-template {

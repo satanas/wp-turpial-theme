@@ -19,6 +19,8 @@
 
             <h3 id="latest-news-title">Latest news</h3>
 
+            <?php get_template_part('footer_ads'); ?>
+
             <?php get_template_part('latest_news'); ?>
         </div>
     </div>

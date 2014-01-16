@@ -15,9 +15,10 @@ $divided = false;
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
+            <div id="previews">
                 <?php $my_query = new WP_Query('showposts='.$num_posts); ?>
                 <?php if($my_query->have_posts()) : ?>
-                <div class="previews">
+                <div class="column">
                     <?php $counter = 0; ?>
                     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                     <div class="post-preview">
@@ -33,10 +34,12 @@ $divided = false;
                     <?php $counter++; ?>
                     <?php if(($counter > ($num_posts / 2) - 1) && ($divided == false)) : ?>
                         <?php $counter = 0; $divided = true; ?>
-                        </div><div class="previews">
+                            <div class="clearbox"></div>
+                        </div><div class="column">
                     <?php endif; ?>
                     <?php endwhile; ?>
                 </div>
+                <div class="clearbox"></div>
                 <div id="navigation">
                     <p><?php posts_nav_link(); ?></p>
                 </div>
@@ -47,7 +50,8 @@ $divided = false;
                     </div>
                 </div>
                 <?php endif; ?>
-                <div class="clearbox"></div>
+                <div class="push"></div>
+            </div>
         </div>
     </div>
 

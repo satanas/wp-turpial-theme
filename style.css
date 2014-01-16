@@ -444,12 +444,16 @@ margin-left: 30px;
 }
 
 
+#latest-news {
+  margin: 0 40px;
+}
+
 .post-thumbnail {
   float: left;
   position: relative;
-  width: 210px;
-  height: 158px;
-  background-color: #ddd;
+  width: 220px;
+  height: 165px;
+  background-color: #000;
 }
 
 .post-thumbnail a {

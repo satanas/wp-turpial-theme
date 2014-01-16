@@ -1,15 +1,12 @@
 <div id="latest-news">
-    <?php $my_query = new WP_Query('showposts=5'); ?>
+    <?php $my_query = new WP_Query('showposts=4'); ?>
     <?php if($my_query->have_posts()) : ?>
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-        <div class="post">
-            <div class="post-head">
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <span class="metadata"><?php the_time('F j, Y'); ?></span>
-            </div>
-          <?php the_post_thumbnail(); ?>
-          <?php the_excerpt(); ?>
-          <span class="post-more"><a href="<?php the_permalink(); ?>">(read more)</a></span>
+        <div class="post-thumbnail">
+            <?php the_post_thumbnail(); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            <p><?php the_time('M d, Y'); ?></p>
+            <p><?php _e('By '); the_author(); ?></p>
         </div>
         <?php endwhile; ?>
     <?php else : ?>

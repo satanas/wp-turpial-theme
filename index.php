@@ -30,7 +30,7 @@ $num_posts = 10;
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
                     </div>
                     <?php $counter++; ?>
-                    <?php if($counter > ($num_posts / 2)) : ?>
+                    <?php if($counter > ($num_posts / 2) - 1) : ?>
                         <?php $counter = 0; ?>
                         </div><div class="previews">
                     <?php endif; ?>

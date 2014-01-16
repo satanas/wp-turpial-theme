@@ -443,6 +443,24 @@ margin-left: 30px;
   text-decoration: underline;
 }
 
+
+.post-thumbnail {
+  position: relative;
+  width: 210px;
+  height: 158px;
+  background-color: #ddd;
+}
+
+.post-thumbnail a {
+  position: absolute;
+  bottom: 30px;
+}
+
+.post-thumbnail span {
+  position: relative;
+  bottom: 0px;
+}
+
 .comments-template {
   margin: 0 20px;
 }

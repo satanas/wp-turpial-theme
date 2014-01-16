@@ -18,6 +18,7 @@
         </div>
     </div>
     <?php endif; ?>
+    <div class="clearbox"></div>
 
     <span id="more-news"><a href="http://turpial.org.ve/news/">Go to blog</a></span>
 </div>

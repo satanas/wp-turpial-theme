@@ -10,12 +10,12 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-            <ul id="previews">
                 <?php $my_query = new WP_Query('showposts=8'); ?>
                 <?php if($my_query->have_posts()) : ?>
+                <div class="previews">
                     <?php $counter = 0; ?>
                     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-                    <li class="post-preview">
+                    <div class="post-preview">
                         <?php the_post_thumbnail('single-post-thumbnail'); ?>
                         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
@@ -24,17 +24,18 @@
                             <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                         </span>
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
-                    </li>
+                    </div>
                     <?php $counter++; ?>
-                    <?php if($counter > 1) : ?>
+                    <?php if($counter > 5) : ?>
                         <?php $counter = 0; ?>
+                        </div><div class="previews">
                         <!-- div class="clearbox"></div -->
                     <?php endif; ?>
                     <?php endwhile; ?>
-                    <div id="navigation">
-                        <p><?php posts_nav_link(); ?></p>
-                    </div>
-            </ul>
+                </div>
+                <div id="navigation">
+                    <p><?php posts_nav_link(); ?></p>
+                </div>
                 <?php else : ?>
                 <div class="post">
                     <div class="post-head">
@@ -42,8 +43,7 @@
                     </div>
                 </div>
                 <?php endif; ?>
-                <!-- div class="clearbox"></div -->
-            <!-- /div-->
+                <div class="clearbox"></div>
         </div>
     </div>
 

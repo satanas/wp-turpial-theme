@@ -444,8 +444,18 @@ margin-left: 30px;
 }
 
 
+#latest-news-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding:10px 20px 0 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+
+}
+
 #latest-news {
-  margin: 0 40px;
+  margin: 0 50px;
 }
 
 .post-thumbnail {
@@ -454,6 +464,7 @@ margin-left: 30px;
   width: 220px;
   height: 165px;
   background-color: #000;
+  border: 1px solid #fff;
 }
 
 .post-thumbnail a {

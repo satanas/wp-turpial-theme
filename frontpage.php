@@ -17,6 +17,8 @@
 
             <?php get_template_part('features'); ?>
 
+            <h3 id="latest-news-title">Lastest news</h3>
+
             <?php get_template_part('latest_news'); ?>
         </div>
     </div>

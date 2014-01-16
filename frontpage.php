@@ -12,6 +12,7 @@
         <div id="page">
             <div id="signature">
                 <p>Turpial is a lightweight and beautiful microblogging client written in Python</p>
+                <a href="http://turpial.org.ve/downloads/">Download</a>
             </div>
 
             <?php get_template_part('features'); ?>
@@ -24,7 +25,6 @@
 <div id="content">
         <div id="description" class="landscape-item">
           <h1>Made in Venezuela</h1>
-          <p>Turpial is a microblogging client written in Python. It is lightweight, functional and does not harm the ozone layer</p>
           <a id="download-button" href="downloads/">version 1.6.9</a>
         </div>
         <div class="clearbox"></div>

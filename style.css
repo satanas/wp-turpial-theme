@@ -61,6 +61,7 @@ margin-left: 30px;
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Global header */
@@ -439,6 +440,14 @@ margin-left: 30px;
   margin: 0 20px;
 }
 
+#wp-page {
+  margin: 20px 40px;
+}
+
+#wp-page .content h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 /* Featured image */
 
 figure {
@@ -463,59 +472,6 @@ figcaption {
   /*box-sizing; border-box;*/
 }
 
-
-/*
-#news .post p {
-  display: inline;
-}
-
-.post-more {
-  font-weight: bold;
-}
-
-
-
-#buttons {
-  float: right;
-  width: 260px;
-}
-
-.button {
-  display: block;
-  height: 75px;
-  background: url('images/button-background.png') bottom repeat-x #00aef8;
-  border: solid 1px #00aef8;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  margin-bottom: 20px;
-  padding: 13px;
-}
-
-.button:hover {
-  background: url('images/button-background-hover.png') bottom repeat-x #1fceff;
-  border: solid 1px #1fceff;
-}
-
-.button img {
-  float: left;
-  padding: 5px 5px 0px 0px;
-}
-
-.button .button-title {
-  display: block;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: -1;
-  padding-bottom: 2px;
-}
-
-.button .button-text {
-  display: block;
-  color: #fff;
-  font-size: 12px;
-}
-*/
 
 #footer {
   height: 170px;
@@ -564,26 +520,6 @@ figcaption {
   vertical-align: top;
 }
 
-/*
-.comment-count {
-  display: block;
-  padding-bottom: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: right;
-}
-
-.comment-count a {
-  color: #666;
-}
-
-.comment-count img {
-  position: relative;
-  top: 3px;
-  padding-right: 5px;
-}
-*/
-
 #navigation {
   margin-top: 30px;
 }
@@ -630,7 +566,7 @@ figcaption {
 
 
 /* Imágenes */
-
+/*
 .post .aligncenter {
   margin-left: auto;
   margin-right: auto;
@@ -675,9 +611,11 @@ figcaption {
 .entry .alignleft, #page-content .alignleft {
 	float: left;
 }
+*/
 /* Fin imágenes */
 
 /* Widget búsqueda */
+/*
 .widget_search .screen-reader-text {
 	display:none;
 }
@@ -690,108 +628,5 @@ figcaption {
 #searchsubmit {
   padding: 3px;
 }
-
+*/
 /* Fin Widget búsqueda */
-
-/* Widget twitter */
-
-#twtr-widget-1 p {
-  font-size: 12px;
-}
-
-/* Fin Widget twitter */
-
-/* Nivoslider */
-
-#main-slider {
-  width: 320px;
-  height: 240px;
-}
-
-/*
- * Note: Include the nivo-slider.css file that comes
- * with the main download before including this file.
- */
-
-.slider {
-	position:relative;
-	margin:0px 0px 60px 0px;
-	background:#202834 url('images/nivoslider/loading.gif') no-repeat 50% 50%;
-	-moz-box-shadow:0px 0px 10px #333;
-	-webkit-box-shadow:0px 0px 10px #333;
-	box-shadow:0px 0px 10px #333;
-}
-.slider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
-}
-.slider a {
-	border:0;
-}
-
-.nivo-controlNav {
-	position:absolute;
-  left:38%;
-	bottom:-30px;
-}
-.nivo-controlNav a {
-	display:block;
-	width:10px;
-	height:10px;
-	background:url('images/nivoslider/bullets.png') no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
-}
-.nivo-controlNav a.active {
-	background-position:-10px 0;
-}
-
-.nivo-directionNav a {
-	display:block;
-	width:32px;
-	height:34px;
-	background:url('images/nivoslider/arrows.png') no-repeat;
-	text-indent:-9999px;
-	border:0;
-}
-a.nivo-nextNav {
-	background-position:-32px 0;
-	right:10px;
-}
-a.nivo-prevNav {
-	left:10px;
-}
-/* Fin Nivoslider */
-
-/* Fin Blog */
-
-
-/*#page ol, #page ul{
-  margin-left: 30px;
-}
-
-#landscape {
-  background: url('images/landscape-background.png')#7ec7e1;
-  height: 330px;
-  border-bottom: solid 1px #333;
-}
-
-.landscape-item {
-  float: left;
-  margin: 45px 0 0 45px;
-}
-
-#gallery {
-  background: #000;
-  width: 320px;
-  height: 240px;
-}
-
-#gallery #mainSlider {
-  width: 320px;
-  height: 240px;
-}*/

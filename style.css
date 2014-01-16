@@ -499,6 +499,17 @@ margin-left: 30px;
   font-size: 11px;
 }
 
+#more-news {
+  text-align: right;
+  padding: 5px 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#more-news a:hover {
+  text-decoration: underline;
+}
+
 .comments-template {
   margin: 0 20px;
 }
@@ -537,12 +548,7 @@ figcaption {
   font-weight: bold;
 }
 
-#more-news {
-  display: block;
-  padding-top: 10px;
-  font-size: 20px;
-  text-align: right;
-}
+
 
 #buttons {
   float: right;

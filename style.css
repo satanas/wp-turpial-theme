@@ -380,6 +380,7 @@ margin-left: 30px;
 }
 
 #previews {
+  margin: 20px 40px;
 }
 
 #previews .column {
@@ -387,9 +388,42 @@ margin-left: 30px;
   width: 450px;
 }
 
+#previews .column.left {
+  margin-right: 10px
+}
+
 .post-preview {
   float: left;
   width: 450px;
+}
+
+.post-preview h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  font-weight: 400px;
+  margin: 10px 0;
+}
+
+.post-preview .metadata {
+  display: block;
+  height: 14px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 6px;
+  margin: 0 20px;
+}
+
+.post-preview .metadata .date {
+  margin-right: 10px;
+}
+
+.post-preview p {
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 #more-news a:hover {

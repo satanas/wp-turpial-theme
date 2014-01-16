@@ -18,7 +18,7 @@ $divided = false;
             <div id="previews">
                 <?php $my_query = new WP_Query('showposts='.$num_posts); ?>
                 <?php if($my_query->have_posts()) : ?>
-                <div class="column">
+                <div class="column left">
                     <?php $counter = 0; ?>
                     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                     <div class="post-preview">
@@ -29,13 +29,14 @@ $divided = false;
                             <span class="date"><?php the_time('M d, Y'); ?></span>
                             <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                         </span>
-                        <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
+                        <p><?php echo get_the_excerpt(); ?> </p>
+                        <div><a href="<?php the_permalink(); ?>">Read full article</a></div>
                     </div>
                     <?php $counter++; ?>
                     <?php if(($counter > ($num_posts / 2) - 1) && ($divided == false)) : ?>
                         <?php $counter = 0; $divided = true; ?>
                             <div class="clearbox"></div>
-                        </div><div class="column">
+                        </div><div class="column right">
                     <?php endif; ?>
                     <?php endwhile; ?>
                 </div>

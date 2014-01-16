@@ -42,7 +42,7 @@ hr {
 pre {
   display: block;
   padding: 9.5px;
-  margin: 0 0 10px;
+  margin: 10px 0;
   font-size: 13px;
   font-family: 'Inconsolata', monospace;
   line-height: 1.42;
@@ -270,7 +270,7 @@ pre {
 .turpial_adsense_footer {
   width: 728px;
   height: 90px;
-  margin: 10px auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -467,6 +467,7 @@ pre {
 }
 
 #wp-page #content h4 img {
+  vertical-align: middle;
 }
 
 /* Featured image */

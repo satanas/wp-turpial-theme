@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Footer Ads
-*/
-?>
-
 <div id="adsense_container">
     <div class="turpial_adsense_footer">
         <script type="text/javascript"><!--

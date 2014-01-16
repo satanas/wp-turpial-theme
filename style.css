@@ -212,11 +212,6 @@ pre {
   background-color:#c62d1f;
 }
 
-#signature a:active {
-  position:relative;
-  top:1px;
-}
-
 #features {
   margin-left: 40px;
   padding-top: 40px;

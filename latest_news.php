@@ -21,5 +21,5 @@
     <?php endif; ?>
     <div class="clearbox"></div>
 
-    <div id="more-news"><a href="http://turpial.org.ve/news/">Go to blog</a></div>
+    <div id="more-news"><a href="http://turpial.org.ve/news/">Read more...</a></div>
 </div>

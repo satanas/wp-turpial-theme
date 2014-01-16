@@ -10,7 +10,7 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-                <?php $my_query = new WP_Query('showposts=8'); ?>
+                <?php $my_query = new WP_Query('showposts=10'); ?>
                 <?php if($my_query->have_posts()) : ?>
                 <div class="previews">
                     <?php $counter = 0; ?>
@@ -26,10 +26,8 @@
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
                     </div>
                     <?php $counter++; ?>
-                    <?php if($counter > 5) : ?>
-                        <?php $counter = 0; ?>
+                    <?php if($counter > 4) : ?>
                         </div><div class="previews">
-                        <!-- div class="clearbox"></div -->
                     <?php endif; ?>
                     <?php endwhile; ?>
                 </div>

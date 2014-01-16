@@ -111,15 +111,15 @@ margin-left: 30px;
 }
 
 .menu-item {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 400;
   text-shadow: 0 1px 1px #000;
-  color: #eee;
+  color: #fff;
   display: block;
   text-decoration: none;
   margin-left: 14px;
   margin-top: 14px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .menu-icon {
@@ -289,6 +289,7 @@ margin-left: 30px;
 
 #features {
   margin-left: 40px;
+  padding-top: 40px;
 }
 
 .feature {

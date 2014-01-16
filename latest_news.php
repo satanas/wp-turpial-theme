@@ -3,13 +3,14 @@
     <?php if($my_query->have_posts()) : ?>
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
         <div class="post-thumbnail">
-            <div class="shadow"></div>
+            <div class="shadow">
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                <span>
+                    <p><?php the_time('M d, Y'); ?></p>
+                    <p><?php _e('By '); the_author(); ?></p>
+                </span>
+            </div>
             <?php the_post_thumbnail(); ?>
-            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            <span>
-                <p><?php the_time('M d, Y'); ?></p>
-                <p><?php _e('By '); the_author(); ?></p>
-            </span>
         </div>
         <?php endwhile; ?>
     <?php else : ?>

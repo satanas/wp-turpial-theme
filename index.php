@@ -10,17 +10,18 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-
-            <?php if(have_posts()) : ?>
-                <?php while(have_posts()) : the_post(); ?>
-                <div class="post">
-                  <div class="post-head">
-                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <span class="metadata">
-                      <?php _e('Posted '); the_time('m/d/Y'); _e(' by '); _e(' '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
-                  </div>
-                  <?php the_content(); ?>
-                  <span class="comment-count"><img alt="coment-icon" src="<?php bloginfo('template_directory'); ?>/images/comment-icon.png" width="16" /><?php comments_popup_link('No comments', '1 comment', '% comments'); ?></span>
+            <?php $my_query = new WP_Query('showposts=8'); ?>
+            <?php if($my_query->have_posts()) : ?>
+                <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <div class="post-thumbnail">
+                    <div class="shadow">
+                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <span>
+                            <p><?php the_time('M d, Y'); ?></p>
+                            <p><?php _e('By '); the_author(); ?></p>
+                        </span>
+                    </div>
+                    <?php the_post_thumbnail('single-post-thumbnail'); ?>
                 </div>
                 <?php endwhile; ?>
                 <div id="navigation">
@@ -28,9 +29,12 @@
                 </div>
             <?php else : ?>
             <div class="post">
-                <h2><?php _e('We couldn\'t find posts'); ?></h2>
+                <div class="post-head">
+                    <h2>We have no news for the moment. Please come back later</h2>
+                </div>
             </div>
-            <?php endif ?>
+            <?php endif; ?>
+            <div class="clearbox"></div>
         </div>
     </div>
 

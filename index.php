@@ -8,6 +8,7 @@
 
 <?php
 $num_posts = 10;
+$divided = false;
 ?>
 
 <body>
@@ -30,8 +31,8 @@ $num_posts = 10;
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
                     </div>
                     <?php $counter++; ?>
-                    <?php if($counter > ($num_posts / 2) - 1) : ?>
-                        <?php $counter = 0; ?>
+                    <?php if(($counter > ($num_posts / 2) - 1) && ($divided == false)) : ?>
+                        <?php $counter = 0; $divided = true; ?>
                         </div><div class="previews">
                     <?php endif; ?>
                     <?php endwhile; ?>

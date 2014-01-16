@@ -7,7 +7,7 @@
 </head>
 
 <?php
-$num_posts = 8;
+$num_posts = 10;
 ?>
 
 <body>

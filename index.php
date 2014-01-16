@@ -14,7 +14,7 @@ $num_posts = 8;
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-                <?php $my_query = new WP_Query('showposts=$num_posts'); ?>
+                <?php $my_query = new WP_Query('showposts='.$num_posts); ?>
                 <?php if($my_query->have_posts()) : ?>
                 <div class="previews">
                     <?php $counter = 0; ?>

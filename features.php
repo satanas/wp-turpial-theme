@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Features
-*/
-?>
-
 <div id="features">
     <div class="feature">
         <img src="<?php bloginfo('template_directory'); ?>/images/feature-simple.png"/>

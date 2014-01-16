@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Latest news
-*/
-?>
-
 <div id="latest-news">
     <?php $my_query = new WP_Query('showposts=5'); ?>
     <?php if($my_query->have_posts()) : ?>

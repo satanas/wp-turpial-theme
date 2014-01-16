@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Head
-*/
-?>
-
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />

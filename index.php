@@ -13,6 +13,7 @@
             <div id="previews">
                 <?php $my_query = new WP_Query('showposts=8'); ?>
                 <?php if($my_query->have_posts()) : ?>
+                    <?php $counter = 0; ?>
                     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                     <div class="post-preview">
                         <?php the_post_thumbnail('single-post-thumbnail'); ?>
@@ -24,6 +25,11 @@
                         </span>
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
                     </div>
+                    <?php $counter++; ?>
+                    <?php if($counter > 1) : ?>
+                        <?php $counter = 0; ?>
+                        <div class="clearbox"></div>
+                    <?php endif; ?>
                     <?php endwhile; ?>
                     <div id="navigation">
                         <p><?php posts_nav_link(); ?></p>

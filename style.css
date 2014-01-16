@@ -225,27 +225,26 @@ margin-left: 30px;
 #signature {
   position: relative;
   height: 350px;
-  /*background-color: #cbccce;*/
-  background-color: #666;
-  background: url('images/bg.png');
+  background: url('https://lh6.googleusercontent.com/-eBatyMLxE3s/UtgAUJdrGSI/AAAAAAAAACU/spEBtKdhNkw/w1000-h350-no/signature-background.png');
 }
 
 #signature p {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 500px;
+  width: 400px;
   height: 200px;
   color: #fff;
   text-shadow: black 0 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
-  margin: -120px 0 0 -10px;
+  margin: -120px 0 0 30px;
+  text-align: center;
 }
 
 #signature a {
   position: absolute;
-  right: 180px;
+  right: 160px;
   bottom: 70px;
   -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
   -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;

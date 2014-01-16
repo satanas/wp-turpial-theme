@@ -6,11 +6,15 @@
     <?php get_template_part('head'); ?>
 </head>
 
+<?php
+$num_posts = 8;
+?>
+
 <body>
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-                <?php $my_query = new WP_Query('showposts=10'); ?>
+                <?php $my_query = new WP_Query('showposts=$num_posts'); ?>
                 <?php if($my_query->have_posts()) : ?>
                 <div class="previews">
                     <?php $counter = 0; ?>
@@ -26,7 +30,8 @@
                         <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
                     </div>
                     <?php $counter++; ?>
-                    <?php if($counter > 4) : ?>
+                    <?php if($counter > ($num_posts / 2)) : ?>
+                        <?php $counter = 0; ?>
                         </div><div class="previews">
                     <?php endif; ?>
                     <?php endwhile; ?>

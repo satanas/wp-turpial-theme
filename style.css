@@ -464,7 +464,7 @@ margin-left: 30px;
   position: relative;
   width: 220px;
   height: 165px;
-  background-color: #000;
+  background-color: #333;
   border: 1px solid #fff;
 }
 
@@ -495,7 +495,7 @@ margin-left: 30px;
 }
 
 .post-thumbnail span p {
-  color: #fff;
+  color: #ccc;
   font-size: 11px;
 }
 

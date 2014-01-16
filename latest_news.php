@@ -1,5 +1,5 @@
 <div id="latest-news">
-    <?php $my_query = new WP_Query('showposts=4'); ?>
+    <?php $my_query = new WP_Query('showposts=8'); ?>
     <?php if($my_query->have_posts()) : ?>
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
         <div class="post-thumbnail">

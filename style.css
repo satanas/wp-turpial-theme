@@ -36,7 +36,23 @@ p, ol, ul, span {
 }
 
 hr {
-margin-left: 30px;
+  margin-left: 30px;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.42;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: pre-wrap;
 }
 
 .clearbox {
@@ -444,8 +460,13 @@ margin-left: 30px;
   margin: 20px 40px;
 }
 
-#wp-page .content h4 {
+#wp-page #content h4 {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#wp-page #content h4 img {
 }
 
 /* Featured image */

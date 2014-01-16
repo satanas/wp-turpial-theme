@@ -30,24 +30,6 @@ a img {
   border: 0;
 }
 
-/*
-h1, h2, h3 {
-  color: #333;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 16px;
-}
-*/
-
 p, ol, ul, span {
   color: #555;
   font-size: 15px;
@@ -155,73 +137,6 @@ margin-left: 30px;
   margin-top: 15px;
 }
 
-
-/*
-#header {
-  position: relative;
-  height: 140px;
-}
-
-#logo {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 425px;
-  height: 100px;
-  background: url('images/logo.png');
-}
-
-#contact-icons {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-bottom: 10px;
-}*/
-
-
-/*
-#contact-icons #paypal-donate {
-  margin-right: 35px;
-}
-
-.FlattrButton {
-  float: right;
-}
-
-#description {
-  width: 400px;
-}
-
-#description p {
-  font-size: 19px;
-  color: #fff;
-  text-shadow: 0 1px 5px #000;
-  line-height: 25px;
-  padding-top: 15px;
-  margin-bottom: 15px;
-}
-*/
-
-/*
-#download-button {
-  position: relative;
-  display: block;
-  width: 145px;
-  height: 43px;
-  background: url('images/download-button.png') no-repeat;
-  color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  padding-top: 50px;
-  padding-left: 110px;
-  left: -22px;
-}
-
-#download-button:active {
-  top: 1px;
-}*/
-
 #signature {
   position: relative;
   height: 350px;
@@ -285,8 +200,6 @@ margin-left: 30px;
   top:1px;
 }
 
-
-
 #features {
   margin-left: 40px;
   padding-top: 40px;
@@ -319,16 +232,6 @@ margin-left: 30px;
   font-size: 0.75em;
 }
 
-
-
-/*
-.more {
-  float:right;
-  font-size: 16px;
-  font-weight: bold;
-}
-*/
-
 /* Ads */
 
 .adsense_container {
@@ -354,39 +257,7 @@ margin-left: 30px;
   text-align: center;
 }
 
-/* End ads */
 
-/*
-#page-head {
-  height: 40px;
-  background: url('images/page-head-background.png') no-repeat #85cbe2;
-  padding: 30px;
-  border-bottom: solid 1px #aaa;
-}
-
-#page-head h1 {
-  color: #333;
-}
-*/
-
-/*
-#page h2, #page h3, #page p, #page ul, #page ol {
-  padding-bottom: 10px;
-}
-
-#page p, #page ul, #page ol {
-  line-height: 20px;
-}
-
-#page pre {
-  color: #333;
-  background: #eee;
-  padding: 20px;
-  margin-bottom: 10px;
-}
-*/
-
-/*#news, #posts {*/
 
 #posts {
   float: left;
@@ -506,6 +377,14 @@ margin-left: 30px;
   padding: 5px 20px;
   font-family: 'Open Sans', sans-serif;
 
+}
+
+#previews {
+}
+
+.post-preview {
+  float: left;
+  width: 450px;
 }
 
 #more-news a:hover {

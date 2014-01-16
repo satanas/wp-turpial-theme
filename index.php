@@ -10,31 +10,33 @@
     <?php get_header(); ?>
     <div id="container">
         <div id="page">
-            <?php $my_query = new WP_Query('showposts=8'); ?>
-            <?php if($my_query->have_posts()) : ?>
-                <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-                <div class="post-preview">
-                    <?php the_post_thumbnail('single-post-thumbnail'); ?>
-                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <div id="previews">
+                <?php $my_query = new WP_Query('showposts=8'); ?>
+                <?php if($my_query->have_posts()) : ?>
+                    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                    <div class="post-preview">
+                        <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-                    <span class="metadata">
-                        <span class="date"><?php the_time('M d, Y'); ?></span>
-                        <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
-                    </span>
-                    <?php echo get_the_excerpt(); ?>
+                        <span class="metadata">
+                            <span class="date"><?php the_time('M d, Y'); ?></span>
+                            <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
+                        </span>
+                        <?php echo get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read full article</a>
+                    </div>
+                    <?php endwhile; ?>
+                    <div id="navigation">
+                        <p><?php posts_nav_link(); ?></p>
+                    </div>
+                <?php else : ?>
+                <div class="post">
+                    <div class="post-head">
+                        <h2>We have no news for the moment. Please come back later</h2>
+                    </div>
                 </div>
-                <?php endwhile; ?>
-                <div id="navigation">
-                    <p><?php posts_nav_link(); ?></p>
-                </div>
-            <?php else : ?>
-            <div class="post">
-                <div class="post-head">
-                    <h2>We have no news for the moment. Please come back later</h2>
-                </div>
+                <?php endif; ?>
+                <div class="clearbox"></div>
             </div>
-            <?php endif; ?>
-            <div class="clearbox"></div>
         </div>
     </div>
 

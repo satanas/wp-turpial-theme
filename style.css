@@ -389,12 +389,16 @@ margin-left: 30px;
 }
 
 #previews .column.left {
-  margin-right: 10px
+  margin-right: 20px
 }
 
 .post-preview {
   float: left;
   width: 450px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .post-preview h3 {
@@ -410,8 +414,7 @@ margin-left: 30px;
   color: #fff;
   font-size: 12px;
   line-height: 16px;
-  padding: 4px 6px;
-  margin: 0 20px;
+  margin-bottom: 10px;
 }
 
 .post-preview .metadata .date {
@@ -420,10 +423,11 @@ margin-left: 30px;
 
 .post-preview p {
   line-height: 26px;
-  margin-bottom: 20px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+}
 
+.post-preview .more {
+  text-align: right;
 }
 
 #more-news a:hover {

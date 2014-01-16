@@ -30,7 +30,7 @@ $divided = false;
                             <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                         </span>
                         <p><?php echo get_the_excerpt(); ?> </p>
-                        <div><a href="<?php the_permalink(); ?>">Read full article</a></div>
+                        <div class="more"><a href="<?php the_permalink(); ?>">Read full article</a></div>
                     </div>
                     <?php $counter++; ?>
                     <?php if(($counter > ($num_posts / 2) - 1) && ($divided == false)) : ?>

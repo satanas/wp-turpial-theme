@@ -13,15 +13,15 @@
             <?php $my_query = new WP_Query('showposts=8'); ?>
             <?php if($my_query->have_posts()) : ?>
                 <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-                <div class="post-thumbnail">
-                    <div class="shadow">
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                        <span>
-                            <p><?php the_time('M d, Y'); ?></p>
-                            <p><?php _e('By '); the_author(); ?></p>
-                        </span>
-                    </div>
+                <div class="post-preview">
                     <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+                    <span class="metadata">
+                        <span class="date"><?php the_time('M d, Y'); ?></span>
+                        <span class="author"><?php _e('By '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
+                    </span>
+                    <?php echo get_the_excerpt(); ?>
                 </div>
                 <?php endwhile; ?>
                 <div id="navigation">

@@ -2,9 +2,9 @@
  *  Theme Name: Turpial
  *  Theme URI: http://www.turpial.org.ve
  *  Description: Wordpress theme for Turpial
- *  Version: 2.bla
- *  Authors: Turpial team
- *  Author URI: http://github.com/satanas/wp-turpial-theme
+ *  Version: 3.0
+ *  Author: Wil Alvarez
+ *  Author URI: http://github.com/satanas
  *
  *  */
 * {
@@ -203,11 +203,12 @@ margin-left: 30px;
 }
 */
 
+/*
 #download-button {
   position: relative;
   display: block;
-  width: 145px; /* 255 - 110 */
-  height: 43px; /* 93 - 50 */
+  width: 145px;
+  height: 43px;
   background: url('images/download-button.png') no-repeat;
   color: #fff;
   font-weight: bold;
@@ -219,13 +220,28 @@ margin-left: 30px;
 
 #download-button:active {
   top: 1px;
+}*/
+
+#signature {
+  position: relative;
+  height: 350px;
+  /*background-color: #cbccce;*/
+  background-color: #666;
 }
 
-/*#features-slider {
-  width: 700px;
-  height: 340px;
-  margin: 50px auto;
-}*/
+#signature p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 200px;
+  color: #fff;
+  text-shadow: black 0 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  margin: -100px 0 0 -10px;
+}
+
 
 
 #features {

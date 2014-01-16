@@ -11,6 +11,7 @@
     <div id="container">
         <div id="page">
             <div id="signature">
+                <p>Turpial is a lightweight and beautiful microblogging client written in Python</p>
             </div>
 
             <?php get_template_part('features'); ?>

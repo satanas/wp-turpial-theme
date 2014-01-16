@@ -16,11 +16,13 @@ $divided = false;
     <div id="container">
         <div id="page">
             <div id="previews">
-                <?php $my_query = new WP_Query('showposts='.$num_posts); ?>
-                <?php if($my_query->have_posts()) : ?>
+                <!-- ?php $my_query = new WP_Query('showposts='.$num_posts); ? -->
+                <!-- ?php if($my_query->have_posts()) : ? -->
+                <?php if(have_posts()) : ?>
                 <div class="column left">
                     <?php $counter = 0; ?>
-                    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                    <!-- ?php while ($my_query->have_posts()) : $my_query->the_post(); ? -->
+                    <?php while (have_posts()) : the_post(); ?>
                     <div class="post-preview">
                         <?php the_post_thumbnail('single-post-thumbnail'); ?>
                         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>

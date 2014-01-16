@@ -239,24 +239,17 @@ margin-left: 30px;
   text-shadow: black 0 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
-  margin: -100px 0 0 -10px;
+  margin: -120px 0 0 -10px;
 }
 
 #signature a {
-  /*
-  border-radius: 6px;
-  display: inline-block;
-  padding: 11px 19px;
-  background-image: linear-gradient(to bottom, #f24437, #c62d1f);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  */
-
+  position: absolute;
+  right: 180px;
+  bottom: 70px;
   -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
   -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
   box-shadow:inset 0px 1px 0px 0px #f5978e;
-  background-color:#f24437;
+  background-color:#d43f3a;
   -webkit-border-top-left-radius:5px;
   -moz-border-radius-topleft:5px;
   border-top-left-radius:5px;
@@ -275,8 +268,6 @@ margin-left: 30px;
   color:#ffffff;
   font-family: 'Ubuntu', sans-serif;
   font-size:20px;
-  font-weight:bold;
-  font-style:normal;
   height:60px;
   line-height:60px;
   width:200px;

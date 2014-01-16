@@ -7,6 +7,7 @@
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <span class="metadata"><?php the_time('F j, Y'); ?></span>
             </div>
+          <?php the_post_thumbnail(); ?>
           <?php the_excerpt(); ?>
           <span class="post-more"><a href="<?php the_permalink(); ?>">(read more)</a></span>
         </div>

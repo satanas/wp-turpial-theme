@@ -19,7 +19,6 @@
                     <span class="metadata">
                       <?php _e('Posted '); the_time('m/d/Y'); _e(' by '); _e(' '); the_author_posts_link(); edit_post_link('Edit', ' &#124; ', ''); ?></span>
                   </div>
-                  <?php the_post_thumbnail(); ?>
                   <?php the_content(); ?>
                   <span class="comment-count"><img alt="coment-icon" src="<?php bloginfo('template_directory'); ?>/images/comment-icon.png" width="16" /><?php comments_popup_link('No comments', '1 comment', '% comments'); ?></span>
                 </div>

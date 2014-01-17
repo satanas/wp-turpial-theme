@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #262626;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: 600px;
+  margin: 0 auto;
+  -moz-box-shadow: 0 3px 10px 3px #111;
+  -webkit-box-shadow: 0 3px 10px 3px #111;
+  box-shadow: 0 3px 10px 3px #111;
+}
+
+#page {
+  background: #fff;
+  padding: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*
 body {
     font-family: 'helvetica neue','helvetica-neue',helvetica,arial,sans-serif;
 }
@@ -48,4 +82,4 @@ p {
     padding-top: 30px;
     font-weight: bold;
 }
-
+*/

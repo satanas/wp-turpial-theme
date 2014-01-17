@@ -25,6 +25,5 @@
     </div>
 
     <div class="push"></div>
-    <?php get_footer(); ?>
 </body>
 </html>

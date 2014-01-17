@@ -30,7 +30,7 @@
                 <?php endwhile; ?>
 
                 <div id="adsense_container">
-                    <div class="turpial_adsense_post">
+                    <div class="turpial_adsense_precomment">
                         <script type="text/javascript"><!--
                         google_ad_client = "ca-pub-9865703181407066";
                         /* Turpial Pre-Comment */
@@ -52,7 +52,7 @@
             </div> <!-- end posts -->
 
             <?php get_sidebar(); ?>
-            <?php get_template_part('footer_ads'); ?>
+            <?php get_template_part('ads_h_text'); ?>
         </div> <!-- end page -->
     </div> <!-- end container -->
     <div class="push"></div>

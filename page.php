@@ -15,21 +15,7 @@
                     <?php while(have_posts()) : the_post(); ?>
                     <h1><?php the_title(); ?></h1>
 
-                    <div id="adsense_container">
-                        <div class="turpial_adsense_footer">
-                            <script type="text/javascript"><!--
-                            google_ad_client = "ca-pub-9865703181407066";
-                            /* Turpial Page */
-                            google_ad_slot = "6621834408";
-                            google_ad_width = 728;
-                            google_ad_height = 90;
-                            //-->
-                            </script>
-                            <script type="text/javascript"
-                            src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-                            </script>
-                        </div>
-                    </div>
+                    <?php get_template_part('ads_h_display'); ?>
 
                     <div id="content"><?php the_content(); ?></div>
 
@@ -39,7 +25,7 @@
                 <?php endif; ?>
             </div>
 
-            <?php get_template_part('footer_ads'); ?>
+            <?php get_template_part('ads_h_text'); ?>
         </div>
     </div>
 

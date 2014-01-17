@@ -5,11 +5,11 @@
 <head>
     <title>Turpial - Under maintenance</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="shortcut icon" href="http://turpial.org.ve/wp-content/themes/turpial/images/favicon.ico" />
+    <link rel="shortcut icon" href="http://turpial.org.ve/wp-content/themes/turpial-2.0/images/favicon.ico" />
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://turpial.org.ve/wp-content/themes/turpial/maintenance.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://turpial.org.ve/wp-content/themes/turpial-2.0/maintenance.css" type="text/css" media="screen" />
 </head>
 
 <body>

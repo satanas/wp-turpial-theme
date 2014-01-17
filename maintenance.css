@@ -28,7 +28,23 @@ body {
 #page {
   height: 100%;
   width: 100%;
-  padding: 20px;
+}
+
+#warning {
+  width: 225px;
+  height: 225px;
+  margin: 0 auto;
+  background: url('images/warning.png');
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
+p {
+  text-align: center;
 }
 
 /*

@@ -15,7 +15,7 @@
 <body>
     <div id="container">
         <div id="page">
-            <img src="" />
+            <div id="warning"></div>
             <h2>Website currently</h2>
             <h1>Under maintenance</h1>
             <p>Come back soon</p>

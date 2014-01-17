@@ -13,22 +13,22 @@ body {
 }
 
 #container {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  width: 600px;
-  margin: 0 auto;
+  height: 400px;
+  width: 500px;
+  margin: 40px auto;
+  background-color: #dfc729;
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
   box-shadow: 0 3px 10px 3px #111;
-}
-
-#page {
-  background: #fff;
-  padding: 20px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+
+#page {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
 
 /*

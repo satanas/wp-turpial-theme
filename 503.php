@@ -15,6 +15,10 @@
 <body>
     <div id="container">
         <div id="page">
+            <img src="" />
+            <h2>Website currently</h2>
+            <h1>Under maintenance</h1>
+            <p>Come back soon</p>
         </div>
     </div>
 </body>

@@ -14,7 +14,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-    <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/maintenance.css" type="text/css" media="screen" />
 </head>
 
@@ -25,5 +24,6 @@
     </div>
 
     <div class="push"></div>
+    <?php get_footer(); ?>
 </body>
 </html>

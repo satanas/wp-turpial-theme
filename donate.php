@@ -37,9 +37,11 @@
                             <a id="paypal-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3QDYV3JLXPQ7U"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="" /></a>
                         </div>
                         <div class="clearbox"></div>
+
+
+                        <h4>Or just click the ads ;)</h4>
                     </div>
 
-                    <h4>Or just click the ads ;)</h4>
 
                     <?php endwhile; ?>
                 <?php else : ?>

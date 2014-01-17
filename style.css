@@ -591,17 +591,21 @@ figcaption {
 
 #donations h2 {
   font-weight: 300;
+  margin: 0 80px;
 }
 
 #donations .method {
   float: left;
   width: 200px;
-  height: 100px;
-  border: 1px solid #ccc;
+  height: 160px;
   border-radius: 4px;
   text-align: center;
   margin: 20px 60px;
   padding: 20px;
+}
+
+#donations h4 {
+  text-align: center;
 }
 
 

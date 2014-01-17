@@ -39,7 +39,7 @@
                         <div class="clearbox"></div>
 
 
-                        <h4>Or just click the ads ;)</h4>
+                        <h4>Or just check our sponsors ;)</h4>
                     </div>
 
 

@@ -30,31 +30,37 @@ a img {
   border: 0;
 }
 
-/*
-h1, h2, h3 {
-  color: #333;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 16px;
-}
-*/
-
 p, ol, ul, span {
   color: #555;
   font-size: 15px;
 }
 
+h1 {
+  margin: 30px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
 hr {
-margin-left: 30px;
+  margin-left: 30px;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 10px 0;
+  font-size: 13px;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.42;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: pre-wrap;
 }
 
 .clearbox {
@@ -79,6 +85,7 @@ margin-left: 30px;
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Global header */
@@ -111,15 +118,15 @@ margin-left: 30px;
 }
 
 .menu-item {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 400;
   text-shadow: 0 1px 1px #000;
-  color: #eee;
+  color: #fff;
   display: block;
   text-decoration: none;
   margin-left: 14px;
   margin-top: 14px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .menu-icon {
@@ -155,96 +162,29 @@ margin-left: 30px;
   margin-top: 15px;
 }
 
-
-/*
-#header {
-  position: relative;
-  height: 140px;
-}
-
-#logo {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 425px;
-  height: 100px;
-  background: url('images/logo.png');
-}
-
-#contact-icons {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-bottom: 10px;
-}*/
-
-
-/*
-#contact-icons #paypal-donate {
-  margin-right: 35px;
-}
-
-.FlattrButton {
-  float: right;
-}
-
-#description {
-  width: 400px;
-}
-
-#description p {
-  font-size: 19px;
-  color: #fff;
-  text-shadow: 0 1px 5px #000;
-  line-height: 25px;
-  padding-top: 15px;
-  margin-bottom: 15px;
-}
-*/
-
-/*
-#download-button {
-  position: relative;
-  display: block;
-  width: 145px;
-  height: 43px;
-  background: url('images/download-button.png') no-repeat;
-  color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  padding-top: 50px;
-  padding-left: 110px;
-  left: -22px;
-}
-
-#download-button:active {
-  top: 1px;
-}*/
-
 #signature {
   position: relative;
   height: 350px;
-  /*background-color: #cbccce;*/
-  background-color: #666;
+  background: url('https://lh6.googleusercontent.com/-eBatyMLxE3s/UtgAUJdrGSI/AAAAAAAAACU/spEBtKdhNkw/w1000-h350-no/signature-background.png');
 }
 
 #signature p {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  width: 500px;
+  width: 400px;
   height: 200px;
   color: #fff;
   text-shadow: black 0 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
-  margin: -120px 0 0 -10px;
+  margin: -120px 0 0 30px;
+  text-align: center;
 }
 
 #signature a {
   position: absolute;
-  right: 180px;
+  right: 160px;
   bottom: 70px;
   -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
   -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
@@ -280,15 +220,9 @@ margin-left: 30px;
   background-color:#c62d1f;
 }
 
-#signature a:active {
-  position:relative;
-  top:1px;
-}
-
-
-
 #features {
   margin-left: 40px;
+  padding-top: 40px;
 }
 
 .feature {
@@ -318,16 +252,6 @@ margin-left: 30px;
   font-size: 0.75em;
 }
 
-
-
-/*
-.more {
-  float:right;
-  font-size: 16px;
-  font-weight: bold;
-}
-*/
-
 /* Ads */
 
 .adsense_container {
@@ -339,53 +263,21 @@ margin-left: 30px;
   margin: 0 auto;
 }
 
-.turpial_adsense_post {
+.turpial_adsense_precomment {
   width: 468px;
   height: 60px;
   margin: 0 auto;
   text-align: center;
 }
 
-.turpial_adsense_footer {
+.turpial_adsense_horizontal {
   width: 728px;
   height: 90px;
-  margin: 10px auto;
+  margin: 30px auto;
   text-align: center;
 }
 
-/* End ads */
 
-/*
-#page-head {
-  height: 40px;
-  background: url('images/page-head-background.png') no-repeat #85cbe2;
-  padding: 30px;
-  border-bottom: solid 1px #aaa;
-}
-
-#page-head h1 {
-  color: #333;
-}
-*/
-
-/*
-#page h2, #page h3, #page p, #page ul, #page ol {
-  padding-bottom: 10px;
-}
-
-#page p, #page ul, #page ol {
-  line-height: 20px;
-}
-
-#page pre {
-  color: #333;
-  background: #eee;
-  padding: 20px;
-  margin-bottom: 10px;
-}
-*/
-
-/*#news, #posts {*/
 
 #posts {
   float: left;
@@ -442,8 +334,143 @@ margin-left: 30px;
   text-decoration: underline;
 }
 
+
+#latest-news-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  padding:10px 20px 0 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+
+}
+
+#latest-news {
+  margin: 0 50px;
+}
+
+.post-thumbnail {
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 165px;
+  background-color: #333;
+  border: 1px solid #fff;
+}
+
+.post-thumbnail .shadow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 220px;
+  height: 165px;
+}
+
+.post-thumbnail a {
+  position: absolute;
+  bottom: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  margin: 0 8px;
+  z-index: 1;
+
+}
+
+.post-thumbnail span {
+  position: absolute;
+  bottom: 0px;
+  margin: 5px 10px;
+  z-index: 1;
+}
+
+.post-thumbnail span p {
+  color: #ccc;
+  font-size: 11px;
+}
+
+#more-news {
+  text-align: right;
+  padding: 5px 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#previews {
+  margin: 20px 40px;
+}
+
+#previews .column {
+  float: left;
+  width: 450px;
+}
+
+#previews .column.left {
+  margin-right: 20px
+}
+
+.post-preview {
+  float: left;
+  width: 450px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.post-preview h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  font-weight: 400px;
+  margin: 10px 0;
+}
+
+.post-preview .metadata {
+  display: block;
+  height: 14px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.post-preview .metadata .date {
+  margin-right: 10px;
+}
+
+.post-preview p {
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.post-preview .more {
+  text-align: right;
+  margin-right: 10px;
+}
+
+#more-news a:hover {
+  text-decoration: underline;
+}
+
 .comments-template {
   margin: 0 20px;
+}
+
+#wp-page {
+  margin: 20px 40px;
+}
+
+#wp-page #content h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#wp-page #content h4 img {
+  vertical-align: middle;
 }
 
 /* Featured image */
@@ -470,64 +497,6 @@ figcaption {
   /*box-sizing; border-box;*/
 }
 
-
-/*
-#news .post p {
-  display: inline;
-}
-
-.post-more {
-  font-weight: bold;
-}
-
-#more-news {
-  display: block;
-  padding-top: 10px;
-  font-size: 20px;
-  text-align: right;
-}
-
-#buttons {
-  float: right;
-  width: 260px;
-}
-
-.button {
-  display: block;
-  height: 75px;
-  background: url('images/button-background.png') bottom repeat-x #00aef8;
-  border: solid 1px #00aef8;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  margin-bottom: 20px;
-  padding: 13px;
-}
-
-.button:hover {
-  background: url('images/button-background-hover.png') bottom repeat-x #1fceff;
-  border: solid 1px #1fceff;
-}
-
-.button img {
-  float: left;
-  padding: 5px 5px 0px 0px;
-}
-
-.button .button-title {
-  display: block;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: -1;
-  padding-bottom: 2px;
-}
-
-.button .button-text {
-  display: block;
-  color: #fff;
-  font-size: 12px;
-}
-*/
 
 #footer {
   height: 170px;
@@ -576,26 +545,6 @@ figcaption {
   vertical-align: top;
 }
 
-/*
-.comment-count {
-  display: block;
-  padding-bottom: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: right;
-}
-
-.comment-count a {
-  color: #666;
-}
-
-.comment-count img {
-  position: relative;
-  top: 3px;
-  padding-right: 5px;
-}
-*/
-
 #navigation {
   margin-top: 30px;
 }
@@ -640,9 +589,28 @@ figcaption {
   font-size: 18px;
 }
 
+#donations h2 {
+  font-weight: 300;
+  margin: 0 80px;
+}
+
+#donations .method {
+  float: left;
+  width: 200px;
+  height: 160px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 60px;
+  padding: 20px;
+}
+
+#donations h4 {
+  text-align: center;
+}
+
 
 /* Imágenes */
-
+/*
 .post .aligncenter {
   margin-left: auto;
   margin-right: auto;
@@ -687,9 +655,11 @@ figcaption {
 .entry .alignleft, #page-content .alignleft {
 	float: left;
 }
+*/
 /* Fin imágenes */
 
 /* Widget búsqueda */
+/*
 .widget_search .screen-reader-text {
 	display:none;
 }
@@ -702,108 +672,5 @@ figcaption {
 #searchsubmit {
   padding: 3px;
 }
-
+*/
 /* Fin Widget búsqueda */
-
-/* Widget twitter */
-
-#twtr-widget-1 p {
-  font-size: 12px;
-}
-
-/* Fin Widget twitter */
-
-/* Nivoslider */
-
-#main-slider {
-  width: 320px;
-  height: 240px;
-}
-
-/*
- * Note: Include the nivo-slider.css file that comes
- * with the main download before including this file.
- */
-
-.slider {
-	position:relative;
-	margin:0px 0px 60px 0px;
-	background:#202834 url('images/nivoslider/loading.gif') no-repeat 50% 50%;
-	-moz-box-shadow:0px 0px 10px #333;
-	-webkit-box-shadow:0px 0px 10px #333;
-	box-shadow:0px 0px 10px #333;
-}
-.slider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
-}
-.slider a {
-	border:0;
-}
-
-.nivo-controlNav {
-	position:absolute;
-  left:38%;
-	bottom:-30px;
-}
-.nivo-controlNav a {
-	display:block;
-	width:10px;
-	height:10px;
-	background:url('images/nivoslider/bullets.png') no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
-}
-.nivo-controlNav a.active {
-	background-position:-10px 0;
-}
-
-.nivo-directionNav a {
-	display:block;
-	width:32px;
-	height:34px;
-	background:url('images/nivoslider/arrows.png') no-repeat;
-	text-indent:-9999px;
-	border:0;
-}
-a.nivo-nextNav {
-	background-position:-32px 0;
-	right:10px;
-}
-a.nivo-prevNav {
-	left:10px;
-}
-/* Fin Nivoslider */
-
-/* Fin Blog */
-
-
-/*#page ol, #page ul{
-  margin-left: 30px;
-}
-
-#landscape {
-  background: url('images/landscape-background.png')#7ec7e1;
-  height: 330px;
-  border-bottom: solid 1px #333;
-}
-
-.landscape-item {
-  float: left;
-  margin: 45px 0 0 45px;
-}
-
-#gallery {
-  background: #000;
-  width: 320px;
-  height: 240px;
-}
-
-#gallery #mainSlider {
-  width: 320px;
-  height: 240px;
-}*/

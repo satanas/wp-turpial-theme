@@ -17,11 +17,15 @@
 
             <?php get_template_part('features'); ?>
 
+            <h3 id="latest-news-title">Latest news</h3>
+
             <?php get_template_part('latest_news'); ?>
+
+            <?php get_template_part('ads_h_display'); ?>
         </div>
     </div>
 
-
+    <div class="push"></div>
     <?php get_footer(); ?>
 </body>
 </html>

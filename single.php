@@ -28,6 +28,23 @@
                     </div>
                 </div>
                 <?php endwhile; ?>
+
+                <div id="adsense_container">
+                    <div class="turpial_adsense_precomment">
+                        <script type="text/javascript"><!--
+                        google_ad_client = "ca-pub-9865703181407066";
+                        /* Turpial Pre-Comment */
+                        google_ad_slot = "9336785207";
+                        google_ad_width = 468;
+                        google_ad_height = 60;
+                        //-->
+                        </script>
+                        <script type="text/javascript"
+                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </div>
+                </div>
+
                 <div class="comments-template"><?php comments_template(); ?></div>
             <?php else : ?>
                 <h2><?php _e('We couldn\'t find posts'); ?></h2>
@@ -35,7 +52,7 @@
             </div> <!-- end posts -->
 
             <?php get_sidebar(); ?>
-            <?php get_template_part('footer_ads'); ?>
+            <?php get_template_part('ads_h_text'); ?>
         </div> <!-- end page -->
     </div> <!-- end container -->
     <div class="push"></div>

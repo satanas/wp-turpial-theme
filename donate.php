@@ -22,8 +22,8 @@
 
                     <div id="content"><?php the_content(); ?></div>
 
-                    <div id="donation-methods">
-                        <div id="flatrr">
+                    <div id="donations">
+                        <div class="method">
                             <h2>Flattr</h2>
                             <a class="FlattrButton" style="display:none;" href="http://turpial.org.ve"></a>
                             <noscript>
@@ -32,13 +32,14 @@
                             </noscript>
                         </div>
 
-                        <div id="paypal">
+                        <div class="method">
                             <h2>Paypal</h2>
                             <a id="paypal-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3QDYV3JLXPQ7U"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="" /></a>
                         </div>
+                        <div class="clearbox"></div>
                     </div>
 
-                    <p>Or just click the ads ;)</p>
+                    <h4>Or just click the ads ;)</h4>
 
                     <?php endwhile; ?>
                 <?php else : ?>

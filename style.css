@@ -35,6 +35,14 @@ p, ol, ul, span {
   font-size: 15px;
 }
 
+h1 {
+  margin: 30px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
 hr {
   margin-left: 30px;
 }
@@ -579,6 +587,21 @@ figcaption {
 
 #sidebar .widget h2 {
   font-size: 18px;
+}
+
+#donations h2 {
+  font-weight: 300;
+}
+
+#donations .method {
+  float: left;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 60px;
+  padding: 20px;
 }
 
 

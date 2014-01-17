@@ -24,6 +24,7 @@
 
                     <div id="donation-methods">
                         <div id="flatrr">
+                            <h2>Flattr</h2>
                             <a class="FlattrButton" style="display:none;" href="http://turpial.org.ve"></a>
                             <noscript>
                                     <a href="http://flattr.com/thing/452623/Turpial-Website" target="_blank">
@@ -32,9 +33,12 @@
                         </div>
 
                         <div id="paypal">
+                            <h2>Paypal</h2>
                             <a id="paypal-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3QDYV3JLXPQ7U"><img src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" alt="" /></a>
                         </div>
                     </div>
+
+                    <p>Or just click the ads ;)</p>
 
                     <?php endwhile; ?>
                 <?php else : ?>

@@ -7,7 +7,7 @@
 
     <div class="feature">
         <img src="<?php bloginfo('template_directory'); ?>/images/queue.png"/>
-        <h3>Cooperative</h3>
+        <h3>Helpful</h3>
         <p>Posting tweets from the queue while your "work"</p>
     </div>
 
@@ -21,7 +21,7 @@
     <div class="feature">
         <img src="<?php bloginfo('template_directory'); ?>/images/feature-versatile.png"/>
         <h3>Versatile</h3>
-        <p>Supporting multiple accounts and multiple columsn</p>
+        <p>Supporting multiple accounts and multiple columns</p>
     </div>
 
     <div class="feature">

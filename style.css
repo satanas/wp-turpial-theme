@@ -33,6 +33,7 @@ a img {
 p, ol, ul, span {
   color: #555;
   font-size: 15px;
+  margin: 10px 40px 30px 40px;
 }
 
 h1 {

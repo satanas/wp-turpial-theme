@@ -33,7 +33,6 @@ a img {
 p, ol, ul, span {
   color: #555;
   font-size: 15px;
-  margin: 10px 40px 30px 40px;
 }
 
 h1 {
@@ -333,6 +332,10 @@ pre {
 
 .post .content p a:hover {
   text-decoration: underline;
+}
+
+.post .content ul {
+  margin: 10px 40px 30px 40px;
 }
 
 

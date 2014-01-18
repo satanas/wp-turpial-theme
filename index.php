@@ -44,7 +44,8 @@ $divided = false;
                     <!-- Ads -->
                     <?php if(($counter ==  2) && ($divided == false)) : ?>
                         <?php get_template_part('ads_c_blog_1.php'); ?>
-                    <?php elseif(($counter == 2) && ($divided == true)) : ?>
+                    <?php endif; ?>
+                    <?php if(($counter == 2) && ($divided == true)) : ?>
                         <?php get_template_part('ads_c_blog_2.php'); ?>
                     <?php endif; ?>
                     <?php endwhile; ?>

@@ -40,6 +40,13 @@ $divided = false;
                             <div class="clearbox"></div>
                         </div><div class="column right">
                     <?php endif; ?>
+
+                    <!-- Ads -->
+                    <?php if(($counter ==  2) && ($divided == false)) : ?>
+                        <?php get_template_part('ads_c_blog_1.php'); ?>
+                    <?php else if(($counter == 2) && ($divided == true)) : ?>
+                        <?php get_template_part('ads_c_blog_2.php'); ?>
+                    <?php endif; ?>
                     <?php endwhile; ?>
                 </div>
                 <div class="clearbox"></div>

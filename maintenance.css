@@ -14,9 +14,9 @@ body {
 
 #container {
   height: 400px;
-  width: 500px;
+  width: 600px;
   margin: 40px auto;
-  background-color: #dfc729;
+  background-color: #fff;
   -moz-box-shadow: 0 3px 10px 3px #111;
   -webkit-box-shadow: 0 3px 10px 3px #111;
   box-shadow: 0 3px 10px 3px #111;
@@ -28,23 +28,90 @@ body {
 #page {
   height: 100%;
   width: 100%;
+  padding-top: 30px;
 }
 
-#warning {
-  width: 225px;
-  height: 225px;
+#logo {
+  width: 70px;
+  height: 58px;
+  background: url('images/footer-logo.png');
   margin: 0 auto;
-  background: url('images/warning.png');
 }
 
-h1, h2 {
-  text-transform: uppercase;
+#logo2 {
+  width: 165px;
+  height: 52px;
+  background: url('images/turpial-logo-maintenance.png');
+  margin: 0 auto;
+}
+
+h1, h3, p {
   text-align: center;
   font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 10px 30px 10px;
 }
 
 p {
-  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin: 0 20px;
+}
+
+#footer {
+  height: 170px;
+  width: 100%;
+  background: url('images/footer-background.png') center repeat-x #262626;
+}
+
+#footer p {
+  color: #fff;
+  font-size: 13px;
+}
+
+#footer, .push {
+  height: 170px;
+}
+
+#footer-content {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+#footer-copyright {
+  float: left;
+  width: 500px;
+}
+
+#footer-copyright img {
+  float: left;
+  padding-right: 10px;
+}
+
+#footer-copyright p {
+  padding-top: 20px;
+}
+
+#footer-icons {
+  float: right;
+}
+
+#footer-icons a {
+  color: white;
+  font-size: 12px;
+  line-height: 40px;
+  padding-left: 10px;
+  vertical-align: top;
 }
 
 /*

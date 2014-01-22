@@ -501,6 +501,11 @@ figcaption {
   /*box-sizing; border-box;*/
 }
 
+.disclaimer {
+  font-size: 11px;
+  color: #999;
+}
+
 
 #footer {
   height: 170px;

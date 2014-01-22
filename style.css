@@ -502,7 +502,7 @@ figcaption {
 }
 
 .disclaimer {
-  font-size: 11px;
+  font-size: 11px !important;
   color: #999;
 }
 
